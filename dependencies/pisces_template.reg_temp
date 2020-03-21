@@ -1,0 +1,17 @@
+Driver=C:\WINDOWS\system32\sqlite3odbc.dll
+Description=
+Database=
+Timeout=1000
+StepAPI=0
+SyncPragma=
+NoTXN=0
+ShortNames=0
+LongNames=0
+NoCreat=1
+NoWCHAR=0
+FKSupport=1
+OEMCP=0
+LoadExt=
+BigInt=0
+JDConv=0
+PWD=

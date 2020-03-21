@@ -1,0 +1,1254 @@
+
+New Run Began at 2018-08-16 16:41:33 - auto-init
+
+New Run Began at 2018-08-16 16:41:45 - PISCES starting
+
+New Run Began at 2018-08-16 16:45:41 - auto-init
+
+New Run Began at 2018-08-16 16:45:49 - PISCES starting
+
+New Run Began at 2018-08-16 16:59:37 - auto-init
+
+New Run Began at 2018-08-16 16:59:46 - PISCES starting
+
+New Run Began at 2018-08-16 17:19:45 - auto-init
+
+New Run Began at 2018-08-16 17:19:57 - PISCES starting
+
+New Run Began at 2018-08-16 17:24:04 - auto-init
+
+New Run Began at 2018-08-16 17:24:15 - PISCES starting
+
+New Run Began at 2018-08-17 11:55:10 - auto-init
+
+New Run Began at 2018-08-17 11:55:23 - PISCES starting
+
+New Run Began at 2018-08-17 16:00:38 - auto-init
+
+New Run Began at 2018-08-17 16:00:50 - PISCES starting
+
+New Run Began at 2018-08-17 16:36:38 - auto-init
+
+New Run Began at 2018-08-17 16:36:46 - PISCES starting
+
+New Run Began at 2018-08-17 16:45:08 - auto-init
+
+New Run Began at 2018-08-17 16:45:17 - PISCES starting
+
+New Run Began at 2018-08-17 16:49:43 - auto-init
+
+New Run Began at 2018-08-17 16:49:51 - PISCES starting
+
+New Run Began at 2018-08-17 17:00:13 - auto-init
+
+New Run Began at 2018-08-17 17:00:22 - PISCES starting
+
+New Run Began at 2018-08-17 17:00:44 - auto-init
+
+New Run Began at 2018-08-17 17:00:52 - PISCES starting
+
+New Run Began at 2018-08-17 17:04:05 - auto-init
+
+New Run Began at 2018-08-17 17:04:14 - PISCES starting
+
+New Run Began at 2018-08-17 17:05:10 - auto-init
+
+New Run Began at 2018-08-17 17:05:18 - PISCES starting
+
+New Run Began at 2018-08-17 17:06:07 - auto-init
+
+New Run Began at 2018-08-17 17:06:15 - PISCES starting
+
+New Run Began at 2018-08-17 17:07:47 - auto-init
+
+New Run Began at 2018-08-17 17:07:58 - PISCES starting
+
+New Run Began at 2018-08-17 17:13:24 - auto-init
+
+New Run Began at 2018-08-17 17:13:33 - PISCES starting
+
+New Run Began at 2018-08-17 17:25:50 - auto-init
+
+New Run Began at 2018-08-17 17:25:59 - PISCES starting
+
+New Run Began at 2018-08-17 17:26:23 - auto-init
+
+New Run Began at 2018-08-17 17:26:37 - PISCES starting
+
+New Run Began at 2018-08-17 18:44:57 - auto-init
+
+New Run Began at 2018-08-17 18:45:11 - PISCES starting
+
+New Run Began at 2018-08-17 18:56:15 - auto-init
+
+New Run Began at 2018-08-17 18:56:25 - PISCES starting
+
+New Run Began at 2018-08-17 18:57:57 - auto-init
+
+New Run Began at 2018-08-17 18:58:08 - PISCES starting
+
+New Run Began at 2018-08-17 19:14:06 - auto-init
+
+New Run Began at 2018-08-17 19:14:37 - auto-init
+
+New Run Began at 2018-08-17 19:14:47 - PISCES starting
+
+New Run Began at 2018-08-17 19:15:19 - auto-init
+
+New Run Began at 2018-08-17 19:15:34 - PISCES starting
+
+New Run Began at 2018-08-17 19:16:49 - auto-init
+
+New Run Began at 2018-08-17 19:16:58 - PISCES starting
+
+New Run Began at 2018-08-17 19:21:31 - auto-init
+
+New Run Began at 2018-08-17 19:21:40 - PISCES starting
+
+New Run Began at 2018-08-17 19:25:44 - auto-init
+
+New Run Began at 2018-08-17 19:28:44 - auto-init
+
+New Run Began at 2018-08-17 19:28:53 - PISCES starting
+
+New Run Began at 2018-08-17 19:29:35 - auto-init
+
+New Run Began at 2018-08-17 19:29:48 - PISCES starting
+
+New Run Began at 2018-08-17 19:30:39 - auto-init
+
+New Run Began at 2018-08-17 19:30:48 - PISCES starting
+
+New Run Began at 2018-08-17 19:33:44 - auto-init
+
+New Run Began at 2018-08-17 19:33:53 - PISCES starting
+
+New Run Began at 2018-08-17 19:34:25 - auto-init
+
+New Run Began at 2018-08-17 19:34:34 - PISCES starting
+
+New Run Began at 2018-08-17 11:56:09 - auto-init
+
+New Run Began at 2018-08-17 20:14:49 - auto-init
+
+New Run Began at 2018-08-17 21:29:23 - auto-init
+
+New Run Began at 2018-08-17 21:29:41 - PISCES starting
+
+New Run Began at 2018-08-17 21:31:47 - auto-init
+
+New Run Began at 2018-08-17 21:31:56 - PISCES starting
+
+New Run Began at 2018-08-17 21:32:29 - auto-init
+
+New Run Began at 2018-08-17 21:32:38 - PISCES starting
+
+New Run Began at 2018-08-17 21:33:27 - auto-init
+
+New Run Began at 2018-08-17 21:33:41 - PISCES starting
+
+New Run Began at 2018-08-17 21:44:47 - auto-init
+
+New Run Began at 2018-08-17 21:44:57 - PISCES starting
+
+New Run Began at 2018-08-17 16:51:58 - auto-init
+
+New Run Began at 2018-08-17 20:22:36 - auto-init
+
+New Run Began at 2018-08-28 22:45:11 - auto-init
+
+New Run Began at 2018-08-28 23:01:25 - auto-init
+
+New Run Began at 2018-08-29 11:30:51 - auto-init
+
+New Run Began at 2018-08-29 11:43:03 - auto-init
+
+New Run Began at 2018-08-29 12:36:42 - auto-init
+
+New Run Began at 2018-08-28 22:02:01 - auto-init
+
+New Run Began at 2018-08-29 12:55:17 - auto-init
+
+New Run Began at 2018-08-29 13:07:28 - auto-init
+
+New Run Began at 2018-08-29 13:26:55 - auto-init
+
+New Run Began at 2018-08-29 14:10:13 - auto-init
+
+New Run Began at 2018-08-29 14:39:08 - auto-init
+
+New Run Began at 2018-08-29 14:44:29 - auto-init
+
+New Run Began at 2018-08-29 14:44:47 - PISCES starting
+
+New Run Began at 2018-08-29 15:00:57 - auto-init
+
+New Run Began at 2018-08-29 15:01:11 - PISCES starting
+
+New Run Began at 2018-08-29 15:08:43 - auto-init
+
+New Run Began at 2018-08-29 15:09:01 - PISCES starting
+
+New Run Began at 2018-08-29 15:09:51 - auto-init
+
+New Run Began at 2018-08-29 15:10:11 - PISCES starting
+
+New Run Began at 2018-08-29 14:43:48 - auto-init
+
+New Run Began at 2018-08-29 15:23:12 - auto-init
+
+New Run Began at 2018-08-29 15:23:28 - PISCES starting
+
+New Run Began at 2018-08-29 15:24:03 - auto-init
+
+New Run Began at 2018-08-29 15:24:14 - PISCES starting
+
+New Run Began at 2018-08-29 15:24:40 - auto-init
+
+New Run Began at 2018-08-29 15:44:22 - auto-init
+
+New Run Began at 2018-08-29 15:50:12 - auto-init
+
+New Run Began at 2018-08-29 16:13:37 - auto-init
+
+New Run Began at 2018-08-29 16:16:45 - auto-init
+
+New Run Began at 2018-08-29 16:45:43 - auto-init
+
+New Run Began at 2018-08-29 16:54:37 - auto-init
+
+New Run Began at 2018-08-30 08:44:59 - auto-init
+
+New Run Began at 2018-08-30 09:40:14 - auto-init
+
+New Run Began at 2018-09-06 11:04:30 - auto-init
+
+New Run Began at 2018-09-06 15:41:58 - auto-init
+
+New Run Began at 2018-09-06 15:43:12 - auto-init
+
+New Run Began at 2018-09-06 15:43:29 - PISCES starting
+
+New Run Began at 2018-09-06 15:46:23 - auto-init
+
+New Run Began at 2018-09-06 15:46:44 - PISCES starting
+
+New Run Began at 2018-09-06 15:47:54 - auto-init
+
+New Run Began at 2018-09-06 15:48:09 - PISCES starting
+
+New Run Began at 2018-09-06 15:49:01 - auto-init
+
+New Run Began at 2018-09-06 15:49:16 - PISCES starting
+
+New Run Began at 2018-09-06 15:50:15 - auto-init
+
+New Run Began at 2018-09-06 15:50:33 - PISCES starting
+
+New Run Began at 2018-09-06 15:51:51 - auto-init
+
+New Run Began at 2018-09-06 15:52:08 - PISCES starting
+
+New Run Began at 2018-09-06 15:53:42 - auto-init
+
+New Run Began at 2018-09-06 15:53:57 - PISCES starting
+
+New Run Began at 2018-09-06 15:56:34 - auto-init
+
+New Run Began at 2018-09-06 15:56:50 - PISCES starting
+
+New Run Began at 2018-09-06 15:59:50 - auto-init
+
+New Run Began at 2018-09-11 16:25:21 - auto-init
+
+New Run Began at 2018-09-11 16:25:40 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:40 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:41 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:42 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:43 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:44 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:44 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:45 - PISCES starting
+
+New Run Began at 2018-09-11 16:25:46 - PISCES starting
+
+New Run Began at 2018-09-11 16:32:54 - PISCES starting
+
+New Run Began at 2018-09-11 16:32:55 - PISCES starting
+
+New Run Began at 2018-09-11 16:33:45 - PISCES starting
+
+New Run Began at 2018-09-11 16:33:47 - auto-init
+
+New Run Began at 2018-09-11 16:33:47 - PISCES starting
+
+New Run Began at 2018-09-11 16:35:22 - PISCES starting
+
+New Run Began at 2018-09-11 16:35:23 - PISCES starting
+
+New Run Began at 2018-09-11 16:37:45 - PISCES starting
+
+New Run Began at 2018-09-11 16:37:46 - auto-init
+
+New Run Began at 2018-09-11 16:37:46 - PISCES starting
+
+New Run Began at 2018-09-11 16:39:20 - PISCES starting
+
+New Run Began at 2018-09-11 16:39:21 - PISCES starting
+
+New Run Began at 2018-09-11 17:06:28 - PISCES starting
+
+New Run Began at 2018-09-11 17:06:29 - PISCES starting
+
+New Run Began at 2018-09-11 17:07:36 - auto-init
+
+New Run Began at 2018-09-11 17:07:34 - PISCES starting
+
+New Run Began at 2018-09-11 17:07:38 - PISCES starting
+
+New Run Began at 2018-09-11 17:07:38 - PISCES starting
+
+New Run Began at 2018-09-11 17:46:09 - PISCES starting
+
+New Run Began at 2018-09-11 17:46:09 - PISCES starting
+
+New Run Began at 2018-09-11 17:46:10 - PISCES starting
+
+New Run Began at 2018-09-11 17:46:11 - PISCES starting
+
+New Run Began at 2018-09-11 17:46:12 - PISCES starting
+
+New Run Began at 2018-09-11 17:46:12 - PISCES starting
+
+New Run Began at 2018-09-11 17:46:18 - PISCES starting
+
+New Run Began at 2018-09-11 17:47:43 - PISCES starting
+
+New Run Began at 2018-09-11 17:47:44 - PISCES starting
+
+New Run Began at 2018-09-11 17:47:52 - auto-init
+
+New Run Began at 2018-09-11 17:47:50 - PISCES starting
+
+New Run Began at 2018-09-11 17:47:53 - PISCES starting
+
+New Run Began at 2018-09-11 17:47:54 - PISCES starting
+
+New Run Began at 2018-09-11 17:48:19 - PISCES starting
+
+New Run Began at 2018-09-11 17:48:20 - PISCES starting
+
+New Run Began at 2018-09-11 18:02:08 - PISCES starting
+
+New Run Began at 2018-09-11 18:02:09 - PISCES starting
+
+New Run Began at 2018-09-11 18:02:18 - auto-init
+
+New Run Began at 2018-09-11 18:02:15 - PISCES starting
+
+New Run Began at 2018-09-11 18:02:19 - PISCES starting
+
+New Run Began at 2018-09-11 18:05:50 - auto-init
+
+New Run Began at 2018-09-11 18:06:36 - PISCES starting
+
+New Run Began at 2018-09-11 18:06:37 - PISCES starting
+
+New Run Began at 2018-09-11 18:06:38 - PISCES starting
+
+New Run Began at 2018-09-11 18:06:38 - PISCES starting
+
+New Run Began at 2018-09-11 18:06:39 - PISCES starting
+
+New Run Began at 2018-09-11 18:07:02 - PISCES starting
+
+New Run Began at 2018-09-11 18:07:03 - PISCES starting
+
+New Run Began at 2018-09-11 18:07:12 - PISCES starting
+
+New Run Began at 2018-09-11 18:07:14 - PISCES starting
+
+New Run Began at 2018-09-11 18:07:15 - PISCES starting
+
+New Run Began at 2018-09-11 18:10:56 - PISCES starting
+
+New Run Began at 2018-09-11 18:10:56 - PISCES starting
+
+New Run Began at 2018-09-11 18:11:00 - PISCES starting
+
+New Run Began at 2018-09-11 18:11:02 - PISCES starting
+
+New Run Began at 2018-09-11 18:11:07 - PISCES starting
+
+New Run Began at 2018-09-11 18:11:08 - PISCES starting
+
+New Run Began at 2018-09-11 18:11:08 - PISCES starting
+
+New Run Began at 2018-09-11 18:14:30 - PISCES starting
+
+New Run Began at 2018-09-11 18:14:31 - PISCES starting
+
+New Run Began at 2018-09-11 18:15:08 - PISCES starting
+
+New Run Began at 2018-09-11 18:07:13 - auto-init
+
+New Run Began at 2018-09-11 18:15:27 - auto-init
+
+New Run Began at 2018-09-11 18:15:28 - auto-init
+
+New Run Began at 2018-09-11 18:15:46 - auto-init
+
+New Run Began at 2018-09-11 18:15:58 - auto-init
+
+New Run Began at 2018-09-11 18:16:01 - auto-init
+
+New Run Began at 2018-09-11 18:16:22 - auto-init
+
+New Run Began at 2018-09-11 18:16:39 - auto-init
+
+New Run Began at 2018-09-11 18:16:42 - auto-init
+
+New Run Began at 2018-09-11 18:17:00 - auto-init
+
+New Run Began at 2018-09-11 18:17:09 - auto-init
+
+New Run Began at 2018-09-11 18:17:11 - auto-init
+
+New Run Began at 2018-09-11 18:15:10 - PISCES starting
+
+New Run Began at 2018-09-11 18:17:43 - PISCES starting
+
+New Run Began at 2018-09-11 18:03:12 - auto-init
+
+New Run Began at 2018-09-11 18:25:09 - auto-init
+
+New Run Began at 2018-09-11 18:25:25 - auto-init
+
+New Run Began at 2018-09-11 18:26:24 - auto-init
+
+New Run Began at 2018-09-11 18:26:43 - PISCES starting
+
+New Run Began at 2018-09-11 21:00:47 - auto-init
+
+New Run Began at 2018-09-11 21:01:03 - PISCES starting
+
+New Run Began at 2018-09-11 21:07:17 - auto-init
+
+New Run Began at 2018-09-11 21:07:34 - PISCES starting
+
+New Run Began at 2018-09-11 21:07:58 - auto-init
+
+New Run Began at 2018-09-11 21:08:15 - PISCES starting
+
+New Run Began at 2018-09-11 21:13:24 - auto-init
+
+New Run Began at 2018-09-11 21:13:40 - PISCES starting
+
+New Run Began at 2018-09-11 21:16:33 - auto-init
+
+New Run Began at 2018-09-11 21:27:24 - auto-init
+
+New Run Began at 2018-09-11 21:27:49 - PISCES starting
+
+New Run Began at 2018-09-12 12:03:03 - auto-init
+
+New Run Began at 2018-09-12 12:05:18 - auto-init
+
+New Run Began at 2018-09-14 14:45:42 - auto-init
+
+New Run Began at 2018-09-14 14:47:23 - auto-init
+
+New Run Began at 2018-09-14 14:50:50 - auto-init
+
+New Run Began at 2018-09-15 16:32:15 - auto-init
+
+New Run Began at 2018-09-16 14:40:24 - auto-init
+
+New Run Began at 2018-09-16 14:51:04 - auto-init
+
+New Run Began at 2018-09-16 14:53:27 - auto-init
+
+New Run Began at 2018-09-16 20:15:58 - auto-init
+
+New Run Began at 2018-09-16 20:16:28 - auto-init
+
+New Run Began at 2018-09-16 21:48:42 - auto-init
+
+New Run Began at 2018-09-16 22:04:49 - auto-init
+
+New Run Began at 2018-09-16 22:06:14 - auto-init
+
+New Run Began at 2018-09-16 22:11:00 - auto-init
+
+New Run Began at 2018-09-17 11:33:21 - auto-init
+
+New Run Began at 2018-09-17 11:46:17 - auto-init
+
+New Run Began at 2018-09-17 12:19:16 - auto-init
+
+New Run Began at 2018-09-17 13:53:12 - auto-init
+
+New Run Began at 2018-09-17 13:55:33 - auto-init
+
+New Run Began at 2018-09-17 15:19:36 - auto-init
+
+New Run Began at 2018-09-17 19:37:09 - auto-init
+
+New Run Began at 2018-09-18 13:49:39 - auto-init
+
+New Run Began at 2018-09-18 13:51:00 - PISCES starting
+
+New Run Began at 2018-09-18 13:51:01 - PISCES starting
+
+New Run Began at 2018-09-18 13:53:44 - PISCES starting
+
+New Run Began at 2018-09-18 13:53:44 - auto-init
+
+New Run Began at 2018-09-18 13:53:45 - PISCES starting
+
+New Run Began at 2018-09-18 13:54:31 - PISCES starting
+
+New Run Began at 2018-09-18 13:54:31 - PISCES starting
+
+New Run Began at 2018-09-24 10:48:35 - auto-init
+
+New Run Began at 2018-09-29 12:15:10 - auto-init
+
+New Run Began at 2018-09-29 12:15:54 - PISCES starting
+
+New Run Began at 2018-09-29 12:15:55 - PISCES starting
+
+New Run Began at 2018-09-29 12:16:23 - PISCES starting
+
+New Run Began at 2018-09-29 12:16:24 - auto-init
+
+New Run Began at 2018-09-29 12:16:24 - PISCES starting
+
+New Run Began at 2018-09-29 12:17:04 - PISCES starting
+
+New Run Began at 2018-09-29 12:17:05 - PISCES starting
+
+New Run Began at 2018-09-29 12:19:57 - PISCES starting
+
+New Run Began at 2018-09-29 12:19:58 - auto-init
+
+New Run Began at 2018-09-29 12:19:58 - PISCES starting
+
+New Run Began at 2018-09-29 12:20:33 - PISCES starting
+
+New Run Began at 2018-09-29 12:20:35 - PISCES starting
+
+New Run Began at 2018-09-29 12:26:55 - PISCES starting
+
+New Run Began at 2018-09-29 12:26:56 - PISCES starting
+
+New Run Began at 2018-09-29 12:38:59 - auto-init
+
+New Run Began at 2018-09-29 12:39:28 - PISCES starting
+
+New Run Began at 2018-09-29 12:42:00 - auto-init
+
+New Run Began at 2018-09-29 12:42:16 - PISCES starting
+
+New Run Began at 2018-09-29 12:52:42 - auto-init
+
+New Run Began at 2018-09-29 12:52:59 - PISCES starting
+2018-09-29 12:53:27 - Error in layer population. Exception string: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+Pyodbc reported Traceback (most recent call last):
+  File "C:\Users\dsx\Code\PISCES\scripts\PISCES\mapping.py", line 738, in populate
+    l_results = db_cursor.execute(self.custom_query.query_string, self.custom_query.bind_var)  # execute its query
+Error: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+.
+
+New Run Began at 2018-09-29 13:07:26 - auto-init
+
+New Run Began at 2018-09-29 13:07:52 - PISCES starting
+
+New Run Began at 2018-09-29 13:11:43 - auto-init
+
+New Run Began at 2018-09-29 13:12:14 - PISCES starting
+2018-09-29 13:12:39 - Error in layer population. Exception string: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+Pyodbc reported Traceback (most recent call last):
+  File "C:\Users\dsx\Code\PISCES\scripts\PISCES\mapping.py", line 738, in populate
+    l_results = db_cursor.execute(self.custom_query.query_string, self.custom_query.bind_var)  # execute its query
+Error: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+.
+
+New Run Began at 2018-09-29 13:16:49 - auto-init
+
+New Run Began at 2018-09-29 13:17:05 - PISCES starting
+2018-09-29 13:17:30 - Error in layer population. Exception string: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+Pyodbc reported Traceback (most recent call last):
+  File "C:\Users\dsx\Code\PISCES\scripts\PISCES\mapping.py", line 738, in populate
+    l_results = db_cursor.execute(self.custom_query.query_string, self.custom_query.bind_var)  # execute its query
+Error: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+.
+
+New Run Began at 2018-09-29 13:18:50 - auto-init
+
+New Run Began at 2018-09-29 13:19:09 - PISCES starting
+2018-09-29 13:19:33 - Error in layer population. Exception string: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+Pyodbc reported Traceback (most recent call last):
+  File "C:\Users\dsx\Code\PISCES\scripts\PISCES\mapping.py", line 738, in populate
+    l_results = db_cursor.execute(self.custom_query.query_string, self.custom_query.bind_var)  # execute its query
+Error: ('HY000', '[HY000] near ",": syntax error (1) (1) (SQLPrepare)')
+.
+
+New Run Began at 2018-09-29 13:23:13 - auto-init
+
+New Run Began at 2018-09-29 13:23:25 - PISCES starting
+2018-09-29 13:23:45 - Error in layer population. Exception string: ('HY000', '[HY000] near ")": syntax error (1) (1) (SQLPrepare)')
+Pyodbc reported Traceback (most recent call last):
+  File "C:\Users\dsx\Code\PISCES\scripts\PISCES\mapping.py", line 738, in populate
+    l_results = db_cursor.execute(self.custom_query.query_string, self.custom_query.bind_var)  # execute its query
+Error: ('HY000', '[HY000] near ")": syntax error (1) (1) (SQLPrepare)')
+.
+
+New Run Began at 2018-09-29 13:34:31 - auto-init
+
+New Run Began at 2018-09-29 13:34:45 - PISCES starting
+
+New Run Began at 2018-10-05 11:49:40 - auto-init
+
+New Run Began at 2018-10-05 14:45:22 - auto-init
+
+New Run Began at 2018-10-09 11:03:27 - auto-init
+
+New Run Began at 2018-10-09 11:42:33 - auto-init
+
+New Run Began at 2018-10-09 14:26:16 - auto-init
+
+New Run Began at 2018-10-17 16:26:21 - auto-init
+
+New Run Began at 2018-10-17 16:27:06 - auto-init
+
+New Run Began at 2018-10-17 16:28:11 - auto-init
+
+New Run Began at 2018-10-17 16:28:48 - auto-init
+
+New Run Began at 2018-10-18 09:18:29 - auto-init
+
+New Run Began at 2018-10-18 09:19:35 - auto-init
+
+New Run Began at 2018-10-18 09:21:31 - auto-init
+
+New Run Began at 2018-10-24 16:44:40 - auto-init
+
+New Run Began at 2018-10-24 16:45:14 - PISCES starting
+
+New Run Began at 2018-10-24 16:45:15 - PISCES starting
+
+New Run Began at 2018-10-24 16:45:16 - PISCES starting
+
+New Run Began at 2018-10-24 16:45:17 - PISCES starting
+
+New Run Began at 2018-10-24 16:45:18 - PISCES starting
+
+New Run Began at 2018-10-24 16:45:19 - PISCES starting
+
+New Run Began at 2018-10-24 16:45:20 - PISCES starting
+
+New Run Began at 2018-11-29 12:09:03 - auto-init
+
+New Run Began at 2018-11-29 12:11:29 - auto-init
+
+New Run Began at 2018-11-29 12:14:58 - PISCES starting
+
+New Run Began at 2018-11-29 12:15:42 - PISCES starting
+
+New Run Began at 2018-11-29 12:17:09 - PISCES starting
+2018-11-29 13:07:27 - Too many maps to open - please open them manually out of the mxds/output directory of your PISCESinstall folder
+
+New Run Began at 2018-11-29 16:24:54 - PISCES starting
+
+New Run Began at 2018-11-29 16:24:56 - PISCES starting
+
+New Run Began at 2018-11-29 16:26:17 - PISCES starting
+
+New Run Began at 2018-11-29 16:26:20 - auto-init
+
+New Run Began at 2018-11-29 16:26:20 - PISCES starting
+
+New Run Began at 2018-11-29 16:28:12 - PISCES starting
+
+New Run Began at 2018-11-29 16:28:13 - PISCES starting
+
+New Run Began at 2018-11-29 16:28:15 - PISCES starting
+
+New Run Began at 2018-12-04 23:04:52 - auto-init
+
+New Run Began at 2018-12-07 07:27:21 - auto-init
+
+New Run Began at 2018-12-07 07:27:40 - PISCES starting
+
+New Run Began at 2018-12-07 07:27:41 - PISCES starting
+
+New Run Began at 2018-12-07 07:49:55 - PISCES starting
+
+New Run Began at 2018-12-07 07:49:56 - PISCES starting
+
+New Run Began at 2018-12-07 07:50:04 - PISCES starting
+
+New Run Began at 2018-12-07 07:50:05 - PISCES starting
+
+New Run Began at 2018-12-07 07:50:05 - PISCES starting
+
+New Run Began at 2018-12-13 15:41:49 - auto-init
+
+New Run Began at 2018-12-21 11:08:09 - auto-init
+
+New Run Began at 2018-12-21 11:08:28 - PISCES starting
+
+New Run Began at 2018-12-21 11:08:29 - PISCES starting
+
+New Run Began at 2018-12-21 11:08:29 - PISCES starting
+
+New Run Began at 2018-12-21 11:08:30 - PISCES starting
+
+New Run Began at 2018-12-21 11:08:30 - PISCES starting
+
+New Run Began at 2018-12-21 11:08:31 - PISCES starting
+
+New Run Began at 2018-12-21 11:08:31 - PISCES starting
+
+New Run Began at 2018-12-21 11:09:27 - PISCES starting
+
+New Run Began at 2018-12-21 11:09:28 - PISCES starting
+
+New Run Began at 2018-12-21 11:09:29 - PISCES starting
+
+New Run Began at 2018-12-21 11:09:29 - PISCES starting
+
+New Run Began at 2018-12-21 11:09:30 - PISCES starting
+
+New Run Began at 2018-12-21 11:09:30 - PISCES starting
+
+New Run Began at 2018-12-21 11:09:31 - PISCES starting
+
+New Run Began at 2018-12-21 11:14:07 - PISCES starting
+
+New Run Began at 2018-12-21 11:14:08 - PISCES starting
+
+New Run Began at 2018-12-21 11:15:08 - PISCES starting
+
+New Run Began at 2018-12-21 11:15:10 - PISCES starting
+
+New Run Began at 2018-12-21 11:15:19 - PISCES starting
+
+New Run Began at 2018-12-21 11:15:20 - PISCES starting
+
+New Run Began at 2018-12-21 11:15:20 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:00 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:00 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:24 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:26 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:36 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:36 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:37 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:40 - PISCES starting
+
+New Run Began at 2018-12-21 11:17:40 - PISCES starting
+
+New Run Began at 2018-12-21 11:18:21 - PISCES starting
+
+New Run Began at 2018-12-21 11:18:23 - auto-init
+
+New Run Began at 2018-12-21 11:18:23 - PISCES starting
+
+New Run Began at 2018-12-21 11:22:18 - PISCES starting
+
+New Run Began at 2018-12-21 11:22:18 - PISCES starting
+
+New Run Began at 2018-12-21 11:22:19 - PISCES starting
+
+New Run Began at 2018-12-21 11:47:16 - PISCES starting
+
+New Run Began at 2018-12-21 11:47:17 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:24 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:25 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:27 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:27 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:29 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:30 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:36 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:37 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:38 - PISCES starting
+
+New Run Began at 2018-12-21 11:48:38 - PISCES starting
+
+New Run Began at 2018-12-21 11:51:52 - PISCES starting
+
+New Run Began at 2018-12-21 11:51:53 - PISCES starting
+
+New Run Began at 2018-12-21 11:52:43 - PISCES starting
+
+New Run Began at 2018-12-21 11:52:45 - PISCES starting
+
+New Run Began at 2018-12-21 11:52:47 - PISCES starting
+
+New Run Began at 2018-12-21 11:52:48 - PISCES starting
+
+New Run Began at 2018-12-21 11:52:49 - PISCES starting
+
+New Run Began at 2018-12-21 11:58:23 - PISCES starting
+
+New Run Began at 2018-12-21 11:58:24 - PISCES starting
+
+New Run Began at 2018-12-21 11:58:35 - PISCES starting
+
+New Run Began at 2018-12-21 11:58:35 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:08 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:09 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:12 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:13 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:13 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:30 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:31 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:53 - PISCES starting
+
+New Run Began at 2018-12-21 11:59:54 - PISCES starting
+
+New Run Began at 2018-12-21 12:00:01 - PISCES starting
+
+New Run Began at 2018-12-21 12:00:02 - PISCES starting
+
+New Run Began at 2018-12-21 12:00:03 - PISCES starting
+
+New Run Began at 2018-12-21 12:10:28 - PISCES starting
+
+New Run Began at 2018-12-21 12:10:28 - PISCES starting
+
+New Run Began at 2018-12-21 12:11:10 - PISCES starting
+
+New Run Began at 2018-12-21 12:11:12 - PISCES starting
+
+New Run Began at 2018-12-21 12:11:16 - PISCES starting
+
+New Run Began at 2018-12-21 12:11:17 - PISCES starting
+
+New Run Began at 2018-12-21 12:11:18 - PISCES starting
+
+New Run Began at 2018-12-21 12:13:47 - PISCES starting
+
+New Run Began at 2018-12-21 12:13:47 - PISCES starting
+
+New Run Began at 2018-12-21 12:14:07 - PISCES starting
+
+New Run Began at 2018-12-21 12:14:09 - PISCES starting
+
+New Run Began at 2018-12-21 12:14:14 - PISCES starting
+
+New Run Began at 2018-12-21 12:14:14 - PISCES starting
+
+New Run Began at 2018-12-21 12:14:15 - PISCES starting
+
+New Run Began at 2018-12-21 12:15:50 - PISCES starting
+
+New Run Began at 2018-12-21 12:15:51 - PISCES starting
+
+New Run Began at 2018-12-21 12:18:11 - PISCES starting
+
+New Run Began at 2018-12-21 12:18:14 - auto-init
+
+New Run Began at 2018-12-21 12:18:14 - PISCES starting
+2018-12-21 12:22:14 - Unable to save MXD for C:\Users\dsx\Code\PISCES\mxds\output\range_Prosopium_williamsoni_SPW01_2.1.4.mxd - ArcGIS threw an error
+
+New Run Began at 2018-12-21 12:22:48 - PISCES starting
+
+New Run Began at 2018-12-21 13:14:07 - auto-init
+
+New Run Began at 2018-12-21 13:34:29 - auto-init
+
+New Run Began at 2018-12-21 13:35:30 - auto-init
+
+New Run Began at 2018-12-21 13:37:37 - auto-init
+
+New Run Began at 2018-12-21 13:38:58 - auto-init
+
+New Run Began at 2018-12-21 13:41:38 - auto-init
+
+New Run Began at 2018-12-21 13:44:32 - auto-init
+
+New Run Began at 2018-12-21 14:18:24 - auto-init
+
+New Run Began at 2018-12-23 21:39:13 - auto-init
+
+New Run Began at 2018-12-24 00:38:34 - auto-init
+
+New Run Began at 2018-12-24 00:44:28 - auto-init
+
+New Run Began at 2018-12-24 00:56:31 - auto-init
+
+New Run Began at 2019-02-11 10:23:37 - auto-init
+
+New Run Began at 2019-02-11 10:24:16 - PISCES starting
+
+New Run Began at 2019-02-11 10:53:49 - auto-init
+
+New Run Began at 2019-02-11 11:10:58 - auto-init
+
+New Run Began at 2019-02-11 11:11:44 - PISCES starting
+
+New Run Began at 2019-02-11 11:30:08 - auto-init
+
+New Run Began at 2019-02-11 11:30:21 - PISCES starting
+
+New Run Began at 2019-02-11 11:32:34 - auto-init
+
+New Run Began at 2019-02-11 11:32:50 - PISCES starting
+
+New Run Began at 2019-02-11 11:34:06 - auto-init
+
+New Run Began at 2019-02-11 11:34:26 - PISCES starting
+
+New Run Began at 2019-02-11 14:35:28 - auto-init
+
+New Run Began at 2019-02-11 14:35:51 - PISCES starting
+
+New Run Began at 2019-02-11 14:36:50 - auto-init
+
+New Run Began at 2019-02-11 14:37:04 - PISCES starting
+
+New Run Began at 2019-02-11 14:38:46 - auto-init
+
+New Run Began at 2019-02-11 14:38:58 - PISCES starting
+
+New Run Began at 2019-02-11 18:34:01 - auto-init
+
+New Run Began at 2019-02-11 18:34:17 - PISCES starting
+
+New Run Began at 2019-02-12 10:48:05 - auto-init
+
+New Run Began at 2019-02-12 13:30:35 - auto-init
+
+New Run Began at 2019-02-12 13:40:07 - auto-init
+
+New Run Began at 2019-02-12 13:44:48 - auto-init
+
+New Run Began at 2019-02-12 13:46:16 - auto-init
+
+New Run Began at 2019-02-12 14:08:24 - auto-init
+
+New Run Began at 2019-02-13 14:41:22 - auto-init
+
+New Run Began at 2019-02-13 14:43:55 - auto-init
+
+New Run Began at 2019-02-13 14:46:01 - auto-init
+
+New Run Began at 2019-02-13 14:52:09 - auto-init
+
+New Run Began at 2019-02-13 15:06:52 - auto-init
+
+New Run Began at 2019-02-13 15:09:36 - auto-init
+
+New Run Began at 2019-02-13 15:23:13 - auto-init
+
+New Run Began at 2019-02-13 15:26:13 - auto-init
+
+New Run Began at 2019-02-13 15:37:14 - auto-init
+
+New Run Began at 2019-02-13 15:37:55 - auto-init
+
+New Run Began at 2019-02-13 15:39:51 - auto-init
+
+New Run Began at 2019-02-13 15:50:45 - auto-init
+
+New Run Began at 2019-02-13 15:52:37 - auto-init
+
+New Run Began at 2019-02-13 15:54:36 - auto-init
+
+New Run Began at 2019-02-13 16:26:47 - auto-init
+
+New Run Began at 2019-02-13 16:29:54 - auto-init
+
+New Run Began at 2019-02-13 16:31:12 - auto-init
+
+New Run Began at 2019-02-13 16:33:46 - auto-init
+
+New Run Began at 2019-02-13 16:42:13 - auto-init
+
+New Run Began at 2019-02-13 16:50:53 - auto-init
+
+New Run Began at 2019-02-13 16:57:58 - auto-init
+
+New Run Began at 2019-02-13 15:19:02 - auto-init
+
+New Run Began at 2019-02-13 21:31:23 - auto-init
+
+New Run Began at 2019-02-14 11:09:35 - auto-init
+
+New Run Began at 2019-02-13 17:06:12 - auto-init
+
+New Run Began at 2019-02-14 11:17:17 - auto-init
+
+New Run Began at 2019-02-14 11:26:09 - auto-init
+
+New Run Began at 2019-02-14 11:54:26 - auto-init
+
+New Run Began at 2019-02-14 12:00:50 - auto-init
+
+New Run Began at 2019-02-14 12:36:53 - auto-init
+
+New Run Began at 2019-02-14 15:04:30 - auto-init
+
+New Run Began at 2019-02-19 11:44:57 - auto-init
+
+New Run Began at 2019-02-21 16:06:03 - auto-init
+
+New Run Began at 2019-04-01 12:35:22 - auto-init
+
+New Run Began at 2019-07-25 16:12:16 - auto-init
+
+New Run Began at 2019-09-26 14:12:47 - auto-init
+2019-09-26 14:12:47 - Unable to get base folder
+2019-09-26 14:12:47 - Unable to set workspace - you are likely loading PISCES from another module. You must manually run set_workspace_vars if you wish to do this
+2019-09-26 14:22:13 - Unable to get base folder
+2019-09-26 14:22:13 - Unable to set workspace - you are likely loading PISCES from another module. You must manually run set_workspace_vars if you wish to do this
+
+New Run Began at 2019-09-26 14:22:21 - auto-init
+2019-09-26 14:22:21 - Unable to get base folder
+2019-09-26 14:22:21 - Unable to set workspace - you are likely loading PISCES from another module. You must manually run set_workspace_vars if you wish to do this
+
+New Run Began at 2019-09-26 14:49:54 - auto-init
+
+New Run Began at 2019-09-26 14:53:37 - auto-init
+
+New Run Began at 2019-10-08 16:37:30 - auto-init
+
+New Run Began at 2019-10-18 16:33:02 - auto-init
+
+New Run Began at 2019-10-18 17:10:57 - auto-init
+
+New Run Began at 2019-10-18 17:28:30 - auto-init
+
+New Run Began at 2019-10-18 21:05:03 - auto-init
+
+New Run Began at 2019-10-18 21:06:42 - auto-init
+
+New Run Began at 2019-10-18 21:10:50 - auto-init
+
+New Run Began at 2019-10-18 21:18:36 - auto-init
+
+New Run Began at 2019-10-18 21:20:08 - auto-init
+
+New Run Began at 2019-10-18 21:24:37 - auto-init
+
+New Run Began at 2019-10-18 21:28:09 - auto-init
+
+New Run Began at 2019-10-18 21:28:29 - auto-init
+
+New Run Began at 2019-10-18 21:34:35 - auto-init
+
+New Run Began at 2019-10-18 21:35:31 - auto-init
+
+New Run Began at 2019-10-18 21:37:04 - auto-init
+
+New Run Began at 2019-10-18 21:42:23 - auto-init
+
+New Run Began at 2019-10-18 21:44:43 - auto-init
+
+New Run Began at 2019-10-18 21:45:47 - auto-init
+
+New Run Began at 2019-10-18 21:46:32 - auto-init
+
+New Run Began at 2019-10-18 21:52:43 - auto-init
+
+New Run Began at 2019-10-18 22:10:38 - auto-init
+
+New Run Began at 2019-10-18 22:20:27 - auto-init
+
+New Run Began at 2019-10-18 22:31:55 - auto-init
+
+New Run Began at 2019-10-18 22:39:24 - auto-init
+
+New Run Began at 2019-10-18 22:41:39 - auto-init
+
+New Run Began at 2019-10-18 22:46:51 - auto-init
+
+New Run Began at 2019-10-18 22:54:23 - auto-init
+
+New Run Began at 2019-10-18 23:21:31 - auto-init
+
+New Run Began at 2019-10-18 23:25:26 - auto-init
+
+New Run Began at 2019-10-18 23:27:23 - auto-init
+
+New Run Began at 2019-10-18 23:28:38 - auto-init
+
+New Run Began at 2019-10-19 12:15:00 - auto-init
+
+New Run Began at 2019-10-19 12:17:25 - auto-init
+
+New Run Began at 2019-10-19 12:24:23 - auto-init
+
+New Run Began at 2019-10-19 12:35:46 - auto-init
+
+New Run Began at 2019-10-19 12:36:21 - auto-init
+
+New Run Began at 2019-10-19 12:38:38 - auto-init
+
+New Run Began at 2019-10-19 12:42:33 - auto-init
+
+New Run Began at 2019-10-21 12:54:09 - auto-init
+
+New Run Began at 2019-10-21 13:08:42 - auto-init
+
+New Run Began at 2019-10-21 13:17:01 - auto-init
+
+New Run Began at 2019-10-21 13:22:12 - auto-init
+
+New Run Began at 2019-10-21 13:32:10 - auto-init
+
+New Run Began at 2019-10-21 13:46:30 - auto-init
+
+New Run Began at 2019-10-21 15:17:35 - auto-init
+
+New Run Began at 2019-10-21 15:46:55 - auto-init
+
+New Run Began at 2019-10-21 15:51:39 - auto-init
+
+New Run Began at 2019-10-21 15:56:46 - auto-init
+
+New Run Began at 2019-10-21 16:07:39 - auto-init
+
+New Run Began at 2019-10-21 16:11:21 - auto-init
+
+New Run Began at 2019-11-25 17:22:46 - auto-init
+
+New Run Began at 2019-11-25 17:31:27 - PISCES starting
+
+New Run Began at 2019-11-25 17:31:28 - PISCES starting
+
+New Run Began at 2019-11-25 17:32:18 - PISCES starting
+
+New Run Began at 2019-11-25 17:32:19 - auto-init
+
+New Run Began at 2019-11-25 17:32:19 - PISCES starting
+2019-11-25 17:33:24 - Couldn't insert record into manifest for web output layers - the layers exported properly though. Non-critical unless you plan to use the manifest to aid upload to another server
+
+New Run Began at 2019-11-25 17:33:25 - PISCES starting
+
+New Run Began at 2019-11-25 17:33:26 - PISCES starting
+
+New Run Began at 2019-11-25 17:33:26 - PISCES starting
+
+New Run Began at 2019-11-25 18:09:33 - PISCES starting
+
+New Run Began at 2019-11-25 18:09:34 - PISCES starting
+
+New Run Began at 2019-11-25 18:10:08 - PISCES starting
+
+New Run Began at 2019-11-25 18:10:08 - auto-init
+
+New Run Began at 2019-11-25 18:10:08 - PISCES starting
+2019-11-25 18:10:46 - Unable to set data source on map layer - stack trace follows: None
+
+New Run Began at 2019-11-25 18:10:47 - PISCES starting
+
+New Run Began at 2019-11-25 18:24:04 - auto-init
+
+New Run Began at 2019-11-25 18:24:22 - PISCES starting
+
+New Run Began at 2019-11-25 18:27:39 - auto-init
+
+New Run Began at 2019-11-25 18:10:48 - PISCES starting
+
+New Run Began at 2019-11-25 18:28:24 - PISCES starting
+
+New Run Began at 2019-11-25 18:28:25 - auto-init
+
+New Run Began at 2019-11-25 18:28:25 - PISCES starting
+2019-11-25 18:28:49 - Unable to set data source on map layer - stack trace follows: None
+
+New Run Began at 2019-11-25 18:28:50 - PISCES starting
+
+New Run Began at 2019-11-25 18:28:51 - PISCES starting
+
+New Run Began at 2019-11-25 18:30:18 - PISCES starting
+
+New Run Began at 2019-11-25 18:30:19 - PISCES starting
+
+New Run Began at 2019-11-25 18:30:43 - PISCES starting
+
+New Run Began at 2019-11-25 18:30:44 - auto-init
+
+New Run Began at 2019-11-25 18:30:44 - PISCES starting
+2019-11-25 18:31:39 - Couldn't insert record into manifest for web output layers - the layers exported properly though. Non-critical unless you plan to use the manifest to aid upload to another server
+
+New Run Began at 2019-11-25 18:31:39 - PISCES starting
+
+New Run Began at 2019-11-25 18:31:40 - PISCES starting
+
+New Run Began at 2019-11-25 18:31:41 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:31 - auto-init
+
+New Run Began at 2019-12-09 12:48:49 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:49 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:50 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:51 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:52 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:52 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:53 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:54 - PISCES starting
+
+New Run Began at 2019-12-09 12:48:55 - PISCES starting
+
+New Run Began at 2019-12-13 22:37:36 - auto-init
+
+New Run Began at 2019-12-13 22:38:08 - PISCES starting
+
+New Run Began at 2019-12-13 22:38:09 - PISCES starting
+
+New Run Began at 2019-12-13 22:40:05 - PISCES starting
+
+New Run Began at 2019-12-13 22:40:05 - auto-init
+
+New Run Began at 2019-12-13 22:40:05 - PISCES starting
+
+New Run Began at 2019-12-13 22:41:18 - PISCES starting
+
+New Run Began at 2019-12-13 22:41:19 - PISCES starting
+
+New Run Began at 2019-12-13 22:41:19 - PISCES starting
+
+New Run Began at 2020-01-13 15:24:08 - auto-init

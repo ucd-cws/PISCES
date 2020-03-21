@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+	<meta charset="UTF-8"/>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+	<script src="jquery-dynatable-master/jquery.dynatable.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-dynatable-master/jquery.dynatable.css">
+	<script src="viewer.js"></script>
+  </head>
+  <body>
+	<table id="datatable">
+<!-- Adding the "keys" from the key-value pairs to the list below would display the results from the logger
+for example: since we have a time field, if we were to delete that line, the time field would not show in the browser. and adding say.. "msg" without the quotes would display the messages stored.
+ -->
+	  <thead>
+		<th>thread_name</th>
+		<th>time</th>
+		<th>exception_name</th>
+		<th>thread</th>
+		<th>process</th>
+		<th>func_name</th>
+		<th>process_name</th>
+		<th>formatted_exception</th>
+		<th>module</th>
+		<th>message</th>
+		<th>level</th>
+		<th>information_pulled</th>
+		<th>channel</th>
+	  </thead>
+	  <tbody>
+	  </tbody>
+	</table>
+  </body>
+</html>

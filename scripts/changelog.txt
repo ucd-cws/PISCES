@@ -1,0 +1,20 @@
+2.1.4
+[Bugfix] Additional bugfixes related to aggregation and unit testing including ensuring truly unique column names per species when scientific namees overlap
+[Bugfix] Fixed regressions related to mapping preferences not being honored after prior refactoring that moved settings to local_vars
+[Bugfix] main.py has been moved to the main repository, but now works again.
+[Deprecation] Test mode was removed from main.py, with the supporting code having been removed previously. It was woefully behind and hasn't been used since 2011, when PISCES was a very different beast.
+[Enhancement] tbx_make_clusters now supports passing through more parameters to clustering, including setting random seeds and report output
+[Enhancement] tbx_make_clusters can now cluster without splitting regions.
+[Workflow Enhancement] db_management.py provides code to support dumping and loading the database in preparation for not versioning the binary database
+
+2.1.2
+[Dependency] pandas has been added as a dependency for the Make Matrix tool (and by exension, the Make Cluster tool)
+[Bugfix] The new API function api.presence.get_presence_by_taxa wasn't working correctly. It has been fixed and can return a list of taxa/zone_id pairs for a species list or group and presence types, filtered by a collection. It can optionally aggregate presence up to species (as opposed to subspecies), genus, and family levels.
+[Tests] The make_matrix code and get_presence_by_taxa functions now have at least partial unit test coverage
+[Refactor] The code to make matrices has been completely reworked to now use the new API function get_presence_by_taxa
+
+2.1.1
+[Bugfix] Bugfixes and testing improvements to API functions
+[Bugfix] API listing functions didn't properly subset to species groups previously
+[Change] Enhancement to funcs.text_to_species_list so it can accept a Python list instead
+[Feature] New API function (api.presence.get_presence_by_taxa) to provide presence information by species group at different levels of taxonomic aggregation

@@ -1,0 +1,13 @@
+Group,# QC Records,# Datasets Included,# Records,Notes
+United States Forest Service,24398,36,148957,
+Expert Data,14201,1,19963,
+Moyle and Randall (1998),8140,88,92347,
+FERC Surveys,1008,6,5601,
+Trout Unlimited,572,5,872,
+CNDDB,511,1,1498,
+BIOS,241,2,2106,Double check the BIOS dataset
+Salmonid Data(cite),221,6,1159,
+EMAP data (cite),62,1,464,
+Various Supporting data (cite),6,6,12,
+,,,,
+"Caption should note that FERC is ""Federal Energy Regulatory Commission""",,,,

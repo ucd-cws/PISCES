@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- saved from url=(0016)http://localhost -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<style type="text/css" id="internalStyle" xmlns="">
+		body {
+		  font-family: Verdana, Gill, Helvetica, Sans-serif ;
+		  font-size: 0.8em;
+		  font-weight: 500;
+		  color: #000020;
+		  background-color: #FFFFFF;
+		}
+		div.itemDescription {
+		  margin-right: 2em;
+		  margin-bottom: 2em;
+		}
+		h1 {
+		  font-size: 1.5em;
+		  margin-top: 0;
+		  margin-bottom: 5px;
+		}
+		h1.idHeading {
+		  color: #008FAF;
+		  text-align: center;
+		}
+		h1.gpHeading {
+		  color: black;
+		}
+		span.idHeading {
+		  color: #007799;
+		  font-weight: bold;
+		}
+		.center {
+		  text-align: center;
+		  margin-top: 5px;
+		  margin-bottom: 5px;
+		}
+		img {
+		  width: 210px;
+		  border-width: 1px;
+		  border-style: outset;
+		}
+		img.center {
+		  text-align: center;
+		  display: block;
+		  border-color: #666666;
+		}
+		img.enclosed {
+		  width: 60%;
+		}
+		img.gp {
+		  width: auto;
+		  border-style: none;
+		  margin-top: -1.2em;
+		}
+		.noThumbnail {
+		  color: #888888;
+		  font-size: 1.2em;
+		  border-width: 1px;
+		  border-style: solid;
+		  border-color: black;
+		  padding: 3em 3em;
+		  position: relative;
+		  text-align: center;
+		  width: 210px;
+		  height: 140px;
+		}
+		.noContent {
+		  color: #888888;
+		}
+		.itemInfo p {
+		  margin-top: -0.1em;
+		}
+		.itemInfo img {
+		  width: auto;
+		  border: none;
+		}
+		.gpItemInfo p {
+		  margin-top: -1.2em;
+		}
+		div.box {
+		  margin-left: 1em;
+		}
+		div.hide {
+		  display: none;
+		}
+		div.show {
+		  display: block;
+		}
+		span.hide {
+		  display: none;
+		}
+		span.show {
+		  display: inline-block;
+		}
+		.backToTop a {
+		  color: #DDDDDD;
+		  font-style: italic;
+		  font-size: 0.85em;
+		}
+		h2 {
+		  font-size: 1.2em;
+		}
+		h2.gp {
+		  color: #00709C;
+		}
+		.gpsubtitle {
+		  color: black;
+		  font-size: 1.2em;
+		  font-weight: normal;
+		}
+		.gptags {
+		  color: black;
+		  font-size: 0.8em;
+		  font-weight: normal;
+		}
+		.head {
+		  font-size: 1.3em;
+		}
+		a:link {
+		  color: #098EA6;
+		  font-weight: normal;
+		  text-decoration: none;
+		}
+		a:visited {
+		  color: #098EA6;
+		  text-decoration: none;
+		}
+		a:link:hover, a:visited:hover {
+		  color: #007799;
+		  background-color: #C6E6EF;
+		}
+		h2.iso a {
+		  color: #007799;
+		  font-weight: bold;
+		}
+		.iso a:link {
+		  color: #007799;
+		  text-decoration: none;
+		}
+		.iso a:visited {
+		  color: #007799;
+		  text-decoration: none;
+		}
+		.iso a:link:hover, .iso a:visited:hover {
+		  color: #006688;
+		  background-color: #C6E6EF;
+		}
+		h2.fgdc a {
+		  color: #888888;
+		  font-weight: bold;
+		}
+		.fgdc a:link {
+		  color: #888888;
+		  text-decoration: none;
+		}
+		.fgdc a:visited {
+		  color: #888888;
+		  text-decoration: none;
+		}
+		.fgdc a:link:hover, .fgdc a:visited:hover {
+		  color: #777777;
+		  background-color: #C6E6EF;
+		}
+		h3 {
+			font-size: 1em; 
+			color: #00709C;
+		}
+		.backToTop {
+		  color: #AAAAAA;
+		  margin-left: 1em;
+		}
+		p.gp {
+		  margin-top: .6em;
+		  margin-bottom: .6em;
+		}
+		ul ul {
+		  list-style-type: square;
+		}
+		ul li.iso19139heading {
+		  margin-left: -3em;
+		  list-style: none;
+		  font-weight: bold;
+		  color: #666666;
+		}
+		dl {
+		  margin: 0;
+		  padding: 0;
+		}
+		dl.iso {
+		  background-color: #F2F9FF;
+		}
+		dl.esri {
+		  background-color: #F2FFF9;
+		}
+		dl.subtype {
+		  width: 40em;
+		  margin-top: 0.5em;
+		  margin-bottom: 0.5em;
+		  padding: 0;
+		}
+		dt {
+		  margin-left: 0.6em;
+		  padding-left: 0.6em;
+		  clear: left;
+		}
+		.subtype dt {
+		  width: 60%;
+		  float: left;
+		  margin: 0;
+		  padding: 0.5em 0.5em 0 0.75em;
+		  border-top: 1px solid #006400;
+		  clear: none;
+		}
+		.subtype dt.header {
+		  padding: 0.5em 0.5em 0.5em 0;
+		  border-top: none;
+		}
+		dd {
+		  margin-left: 0.6em;
+		  padding-left: 0.6em;
+		  clear: left;
+		}
+		.subtype dd {
+		  float: left;
+		  width: 25%;
+		  margin: 0;
+		  padding: 0.5em 0.5em 0 0.75em;
+		  border-top: 1px solid #006400;
+		  clear: none;
+		}
+		.subtype dd.header {
+		  padding: 0.5em 0.5em 0.5em 0;
+		  border-top: none;
+		}
+		.isoElement {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #006688;
+		}
+		.esriElement {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #006688;
+		}
+		.element {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #666666;
+		}
+		unknownElement {
+		  font-variant: small-caps;
+		  font-size: 0.9em;
+		  font-weight: normal;
+		  color: #333333;
+		}
+		.sync {
+		  color: #006400;
+		  font-weight: bold;
+		  font-size: 0.9em;
+		}
+		.syncOld {
+		  color: #888888;
+		  font-weight: bold;
+		  font-size: 0.9em;
+		}
+		.textOld {
+		  color: #999999;
+		}
+		.code {
+		  font-family: monospace;
+		}
+		pre.wrap {
+		  width: 96%;
+		  font-family: Verdana, Gill, Helvetica, Sans-serif ;
+		  font-size: 1em;
+		  margin: 0 0 1em 0.6em;
+		  white-space: pre-wrap;       /* css-3 */
+		  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		  white-space: -pre-wrap;      /* Opera 4-6 */
+		  white-space: -o-pre-wrap;    /* Opera 7 */
+		  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		}
+		pre.gp {
+		  font-family: Courier New, Courier, monospace;
+		  line-height: 1.2em;
+		}
+		.gpcode {
+		  margin-left:15px;
+		  border: 1px dashed #ACC6D8;
+		  padding: 10px;
+		  background-color:#EEEEEE;
+		  height: auto;
+		  overflow: scroll; 
+		  width: 96%;
+		}
+		tr {
+		  vertical-align: top;
+		}
+		th {
+		  text-align: left;
+		  background: #dddddd;
+		  vertical-align: bottom;
+		  font-size: 0.8em;
+		}
+		td {
+		  background: #EEEEEE;
+		  color: black;
+		  vertical-align: top;
+		  font-size: 0.8em;
+		}
+		td.description {
+		  background: white;
+		}
+	  </style>
+</head>
+<body oncontextmenu="return true">
+<h1 class="gpHeading" xmlns="">Look Up Records</h1>
+<h2 class="gp" xmlns="">Title 
+		<span class="gpsubtitle">Look Up Records</span>
+</h2>
+<h2 class="gp" xmlns="">Summary</h2>
+<div class="gpItemInfo" xmlns="">
+<p><DIV STYLE="text-align:Left;"><DIV><DIV><P><SPAN>Provided a HUC12 layer with a selection of HUC12s on it, this tool, looks up PISCES records related to those HUC12s and returns them as a table into the ArcMap table of contents. Optional parameters can fiilter to records matching species, type, or quality criteria. This tool can be used as a way to query data about HUC12s of interest, such as sources or species presence, without generating a map, or as a tool to export human readable information from PISCES to another system.</SPAN></P><P><SPAN>This tool will have trouble if you select HUCs covering a large portion of the state, so limiting your selection is best.</SPAN></P></DIV></DIV></DIV></p><br />
+</div>
+<h2 class="gp" xmlns="">Usage</h2>
+<div class="gpItemInfo" xmlns="">
+<p><span class="noContent">There is no usage for this tool.</span></p>
+</div>
+<h2 class="gp" xmlns="">Syntax</h2>
+<div xmlns="">
+<p style="margin-top: -1.2em">LookUpRecords (Zones_of_Interest, {Species_and_Groups_to_Limit_Records_to}, {Species_and_Groups_Holder}, {Limit_to_Presence_Types}, {Limit_to_Collections}, {Limit_to_Collections_Holder}) <br /><br />
+</p>
+<table width="100%" border="0" cellpadding="5">
+<tbody>
+<tr>
+<th width="30%">
+<b>Parameter</b>
+</th>
+<th width="50%">
+<b>Explanation</b>
+</th>
+<th width="20%">
+<b>Data Type</b>
+</th>
+</tr>
+<tr>
+<td class="info">Zones_of_Interest</td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>A HUC12 layer with an active selection on it denoting the HUC12s to be looked up, or a huc12 layer covering a small area.</SPAN></P></DIV></DIV><p><span class="noContent">There is no python reference for this parameter.</span></p></td>
+<td class="info" align="left">Feature Layer</td>
+</tr>
+<tr>
+<td class="info">Species_and_Groups_to_Limit_Records_to (Optional) </td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>Select the species or species groups to filter the selected records. You can select overlapping sets of species and/or groups and your specified taxa will be deduplicated. Once you make a selection here, it will appear in the next box, allowing you to select more. If you select nothing, the tool will return records for any species.</SPAN></P><P><SPAN>This field conducts a form of autocomplete. If you type 5 or more characters into the box, it will attempt to add the species that matches to the selection. If more than one species matches, then it will warn you.</SPAN></P></DIV></DIV><p><span class="noContent">There is no python reference for this parameter.</span></p></td>
+<td class="info" align="left">String</td>
+</tr>
+<tr>
+<td class="info">Species_and_Groups_Holder (Optional) </td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>This box allows you to uncheck species or groups you added by mistake or changed your mind about. When you uncheck the box and put the mouse focus into another area (by clicking into another box, for example), items will be removed.</SPAN></P></DIV></DIV><p><span class="noContent">There is no python reference for this parameter.</span></p></td>
+<td class="info" align="left">Multiple Value</td>
+</tr>
+<tr>
+<td class="info">Limit_to_Presence_Types (Optional) </td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>Check the boxes of any presence types you want to find records for. If you leave this box empty, records of all presence types will be returned.</SPAN></P></DIV></DIV><p><span class="noContent">There is no python reference for this parameter.</span></p></td>
+<td class="info" align="left">Multiple Value</td>
+</tr>
+<tr>
+<td class="info">Limit_to_Collections (Optional) </td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>Similar to the species selector, this allows you to limit the returned records to ones that have been added to various data collections. For more on what a data collection is, see the full PISCES documentation (under the heading Quality Controlled Data)</SPAN></P></DIV></DIV><p><span class="noContent">There is no python reference for this parameter.</span></p></td>
+<td class="info" align="left">String</td>
+</tr>
+<tr>
+<td class="info">Limit_to_Collections_Holder (Optional) </td>
+<td class="info" align="left">
+<span style="font-weight: bold">Dialog Reference</span><br /><DIV STYLE="text-align:Left;"><DIV><P><SPAN>This box allows you to uncheck collections you added by mistake or changed your mind about. When you uncheck the box and put the mouse focus into another area (by clicking into another box, for example), items will be removed.</SPAN></P></DIV></DIV><p><span class="noContent">There is no python reference for this parameter.</span></p></td>
+<td class="info" align="left">Multiple Value</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="gp" xmlns="">Code Samples</h2>
+<div class="gpItemInfo" xmlns="">
+<p><span class="noContent">There are no code samples for this tool.</span></p>
+</div>
+<h2 class="gp" xmlns="">Tags</h2>
+<div class="gpItemInfo" xmlns="">
+<p>export, records, search, huc12s, pisces, observations, filters, table, explore</p>
+</div>
+<h2 class="gp" xmlns="">Credits</h2>
+<div class="gpItemInfo" xmlns="">
+<p><span class="noContent">There are no credits for this item.</span></p>
+</div>
+<h2 class="gp" xmlns="">Use limitations</h2>
+<div class="gpItemInfo" xmlns="">
+<p><span class="noContent">There are no use limitations for this item.</span></p>
+</div>
+</body>
+</html>

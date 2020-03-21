@@ -1,0 +1,41 @@
+\backup
+	Backup files of important information
+
+\data
+	FSFish.mdb
+	Data resulting from the process to keep
+
+\devel
+	All other data, documents, etc used in the development of this project
+
+\documentation
+	Files describing information necessary to run the code - This file should be in there
+
+\inputs
+	New data for importing starts here
+
+\log
+	Logs 
+
+\maps
+	\{FID}
+		{Forest}
+		{Forest}
+		State
+	\{FID}
+	\{FID}
+
+\mxds
+	Flat folder
+
+\proc
+	Calculation database, workspace, etc
+
+\samples
+	Sample maps, data to give to people, etc. Anything that is generated that’s not a finished product
+
+\script
+	Flat folder – all scripting files
+
+\test
+	For internal program test configurations - no files of interest here except when debugging

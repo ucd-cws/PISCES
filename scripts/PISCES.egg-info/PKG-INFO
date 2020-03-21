@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: PISCES
+Version: 2.0.5
+Summary: This setup file is only used for registering PISCES correctly in a new copy of Python. Other setup isrequired
+Home-page: https://bitbucket.org/nickrsan/PISCES
+Author: nickrsan
+Author-email: nrsantos@ucdavis.edu
+License: UNKNOWN
+Description: Placeholder
+Platform: UNKNOWN
+Requires: arcpy
+Requires: pyodbc
+Requires: sqlalchemy
