@@ -1,6 +1,5 @@
-from __future__ import print_function
+from __future__ import absolute_import, division, print_function
 
-import _winreg
 import os
 import re
 import traceback
@@ -9,11 +8,28 @@ import pyodbc
 
 import arcpy
 
-from code_library import isiterable
+from . import local_vars
+from . import log
+from .local_vars import clean_location, winreg
 
-import local_vars
-import log
-from local_vars import clean_location
+
+def isiterable(item):
+	"""
+	tests whether an object is iterable
+
+	not super useful, but prevents needing to remember the syntax and names
+	"""
+	return hasattr(item, '__iter__')
+
+
+def index_toolbox_params(tool, params):
+	"""
+		Indexes parameters to ArcGIS Python script tools so that they can be looked up by name. May not work for getting data, but
+		should at least allow reading of info.
+	"""
+	tool.params_index = {}
+	for param in params:
+		tool.params_index[param.name] = param
 
 
 def db_connect(db_name, note=None, access=False):
@@ -201,9 +217,9 @@ def get_path():
 	:raise: WindowsError on failure to retrive info from the registry
 	"""
 	try:
-		registry = _winreg.ConnectRegistry("", _winreg.HKEY_LOCAL_MACHINE)  # open the registry
-		base_folder = _winreg.QueryValue(registry, "Software\CWS\PISCES\location")  # get the PISCES location
-		_winreg.CloseKey(registry)
+		registry = winreg.ConnectRegistry("", winreg.HKEY_LOCAL_MACHINE)  # open the registry
+		base_folder = winreg.QueryValue(registry, "Software\CWS\PISCES\location")  # get the PISCES location
+		winreg.CloseKey(registry)
 	except:
 		raise WindowsError("Unable to get base folder")
 

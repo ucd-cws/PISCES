@@ -24,7 +24,7 @@ import log
 import orm_models
 import mapping
 
-from code_library.common import toolbox
+from funcs import index_toolbox_params as index_params
 
 
 class Filter_Tool_Template(object):

@@ -1,6 +1,7 @@
 from __future__ import absolute_import, division, print_function
 
-__version__ = "2.2.0"
+__version__ = "2.3.0"
+
 __all__ = ["local_vars", "api", "callbacks", "funcs", "input_filters", "log", "mapping", "script_tool_funcs", "db_management", "tbx_make_clusters"]
 
 from . import local_vars

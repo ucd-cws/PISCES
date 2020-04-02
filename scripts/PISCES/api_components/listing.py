@@ -110,6 +110,38 @@ def get_hucs_for_species_in_group_as_list(group_name, presence_types, collection
 		session.close()
 
 
+def get_taxonomic_tree():
+	"""
+		Returns a dictionary tree of taxonomic levels starting with families. Only includes taxa in the TaxonomicLevel
+		ORM objects, so no species groups attached - as of this writing, only native fish.
+
+		Top level keys are familys. The values are always dictionaries with two objects ("name" and "children"),
+		so any given level's .keys() will be the scientific name at that level (eg, top level Salmonidae).
+		The "name" key includes a common name representation for the taxonomic level, if available, and "children"
+		includes access to lower taxonomic levels as a dictionary with the same key/value structure as the top level
+		If you then go a level in, such as tree["Salmonidae"], that level
+		has .keys() of genus names and .values() are dicts that themselves have species level names as keys (for consistency,
+		and to support a future subspecies tree without changes).
+	:return:
+	"""
+	session = support.connect_orm(hotload=True)
+
+	tree = {}
+	try:
+		taxonomic_levels = session.query(orm.TaxonomicLevel).filter(orm.TaxonomicLevel.level == "Family")
+		for family in taxonomic_levels:
+			tree[family.scientific_name] = {"name": family.common_name, "children": {}}
+			for genus in family.children:
+				tree[family.scientific_name]["children"][genus.scientific_name] = {"name": genus.common_name, "children": {}}
+				for species in genus.children:
+					tree[family.scientific_name]["children"][genus.scientific_name]["children"][species.scientific_name] = {"name": species.common_name, "children": {}}
+
+	finally:
+		session.close()
+
+	return tree
+
+
 def get_distinct_taxonomic_names_in_group_as_list(level, group_name=None):
 	"""
 		Given a species group, outputs a list of every distinct name at a given taxonomic level (family, genus, or species)

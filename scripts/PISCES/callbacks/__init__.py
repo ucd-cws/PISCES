@@ -11,7 +11,7 @@ from .. import funcs
 from richness_difference import richness_difference
 from common import postprocess_zones, add_field, empty_object, function_arg, query, get_arg
 
-from code_library.common import geospatial
+from ..code_library_data_files import generate_gdb_filename, fast_dissolve, make_temp
 
 log = logging.getLogger("PISCES.callbacks")
 
@@ -424,7 +424,7 @@ def dissolve(zones_layer, db_cursor, args, parent_layer):
 	"""
 
 	log.debug("Dissolving zones", True)
-	new_name = geospatial.generate_gdb_filename("dissolved")
+	new_name = generate_gdb_filename("dissolved")
 	arcpy.Dissolve_management(zones_layer, new_name)
 
 	new_layer = os.path.split(new_name)[1]  # get just the unnique part of the name so we can use it as the layer name
@@ -505,7 +505,7 @@ def export_raster(zones_layer, db_cursor, args, parent_layer):
 
 	try:
 		### run a code lib fast dissolve
-		dissolved = geospatial.fast_dissolve(zones_layer)
+		dissolved = fast_dissolve(zones_layer)
 
 		### add a field for the presence type = value_code
 		arcpy.AddField_management(dissolved, field_name, "SHORT", "", "", "", "", "NULLABLE", "NON_REQUIRED")
@@ -526,10 +526,10 @@ def export_raster(zones_layer, db_cursor, args, parent_layer):
 
 		### Make a separate workspace to prevent conflicts
 		if not raster_working_gdb:
-			temp_folder, raster_working_gdb = geospatial.make_temp(override=True)
+			temp_folder, raster_working_gdb = make_temp(override=True)
 
 		### run the conversion
-		out_raster = geospatial.generate_gdb_filename(name_base="pisces_raster", return_full=True,
+		out_raster = generate_gdb_filename(name_base="pisces_raster", return_full=True,
 													  gdb=raster_working_gdb, scratch=False)
 		arcpy.FeatureToRaster_conversion(in_features=dissolved, field=field_name, out_raster=out_raster,
 										 cell_size=template_raster)

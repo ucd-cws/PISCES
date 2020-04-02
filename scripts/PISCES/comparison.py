@@ -8,16 +8,16 @@ import funcs
 import local_vars
 import api
 
-
-from code_library.common import geospatial
+from code_library_data_files import teale_albers
+import code_library_geometry as geometry
 
 
 def percent_overlap(range_old, range_new):
-	return geospatial.geometry.percent_overlap(range_old, range_new, dissolve=True)
+	return geometry.percent_overlap(range_old, range_new, dissolve=True)
 
 
 def centroid_distance(range_old, range_new):
-	return geospatial.geometry.simple_centroid_distance(range_old, range_new, geospatial.teale_albers, dissolve=True) / 1000
+	return geometry.simple_centroid_distance(range_old, range_new, teale_albers, dissolve=True) / 1000
 
 
 def historic_vs_current(fid, collections=local_vars.hq_collections):

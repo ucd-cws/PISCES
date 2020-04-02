@@ -5,8 +5,7 @@ import string
 
 from sqlalchemy import distinct
 import arcpy
-
-from code_library import isiterable
+import arcpy
 
 import api_components
 from api_components.listing import get_hucs_for_species_as_list  # backwards compatibility
@@ -20,6 +19,7 @@ import funcs
 import orm_models as orm
 import mapping
 import log
+
 
 class NoDataError(Exception):
 	def __init__(self, message, **kwargs):
@@ -107,7 +107,7 @@ def get_observation_records_for_hucs(huc_list_or_layer, species_list=None, prese
 
 	try:
 		# first, determine if we have a list of hucs, or if it's an arcpy layer
-		if isiterable(huc_list_or_layer):  # then we have a list of hucs, go with it
+		if hasattr(huc_list_or_layer, "__iter__"):  # then we have a list of hucs, go with it
 			huc_list = huc_list_or_layer
 		else:
 			huc_list = funcs.hucs_to_list(huc_list_or_layer)

@@ -1,20 +1,23 @@
+from __future__ import absolute_import, division, print_function
+
 import os
 import shutil
 import string
-import sys
 import traceback
-import _winreg
 import logging
 
+import six
 import pyodbc
 
 import arcpy
-from code_library.common.geospatial import data_file
 
+if six.PY2:
+	import _winreg as winreg
+else:
+	import winreg
 
-import log  # safe to import now because we made it not import local vars
+from . import log  # safe to import now because we made it not import local vars
 new_log = logging.getLogger("PISCES.local_vars")  # for the future
-
 
 # WORKSPACE VARIABLES
 debug = True
@@ -154,6 +157,9 @@ config_metadata = True
 force_cache_search = True  # for items that try the layer cache first, look in the cache instead of at the data table
 
 
+from .code_library_data_files import data_file
+
+
 def determine_delimiters():
 	global zones_geospatial, delim_open, delim_close
 
@@ -177,9 +183,9 @@ def set_workspace_vars(l_workspace=None):
 
 		try:
 			try:
-				registry = _winreg.ConnectRegistry("", _winreg.HKEY_LOCAL_MACHINE)  # open the registry
-				base_folder = _winreg.QueryValue(registry, reg_key)  # get the PISCES location
-				_winreg.CloseKey(registry)
+				registry = winreg.ConnectRegistry("", winreg.HKEY_LOCAL_MACHINE)  # open the registry
+				base_folder = winreg.QueryValue(registry, reg_key)  # get the PISCES location
+				winreg.CloseKey(registry)
 			except:
 				log.error("Unable to get base folder")
 				raise
@@ -232,6 +238,7 @@ set_workspace_vars()
 
 from PISCES import __version__
 version = __version__
+
 
 ### We're duplicating the database connection code here to avoid a circular import - in the future it'd be good to get it out of here entirely. But baby steps
 def db_connect(db_name, note=None, access=False):
@@ -425,7 +432,7 @@ class observation:  # contains data related to a particular observation data fil
 
 		fields = [t[0] for t in db_cursor.description]
 		for field in fields:
-			self.__dict__[str(field).lower()] = record.__getattribute__(field)  # using field for both keys because we wrote them as "as" statements in the querhy
+			setattr(self, str(field).lower(), record.__getattribute__(field))  # using field for both keys because we wrote them as "as" statements in the querhy
 
 		# ok, now get the collections and append them to the list on the object
 		select_collections = "SELECT collection_id from observation_collections where observation_id = ?"
@@ -450,7 +457,7 @@ class observation:  # contains data related to a particular observation data fil
 		insert_dict = {}
 		for key in self.__dict__:
 			if key not in self.not_db_items and key not in self.do_not_add and key not in self.table_specific_not_db_items[self.table_used]:
-				insert_dict[key] = self.__dict__[key]
+				insert_dict[key] = getattr(self, key)
 
 		query = compose_query_from_dict(self.table_used, insert_dict)
 		db_cursor.execute(query)

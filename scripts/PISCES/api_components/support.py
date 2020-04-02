@@ -7,7 +7,7 @@ from .. import local_vars
 from .. import funcs
 from .. import orm_models as orm
 
-from code_library import isiterable
+from ..funcs import isiterable
 
 def _parse_presence_types_and_collections_to_list(item):
 

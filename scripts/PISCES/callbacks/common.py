@@ -7,8 +7,8 @@ import arcpy
 from .. import funcs
 from .. import local_vars
 
-from code_library import isiterable
-from code_library.common import geospatial
+from ..funcs import isiterable
+from ..code_library_data_files import write_column_by_key, generate_gdb_filename
 
 log = logging.getLogger("PISCES.callbacks")
 
@@ -18,7 +18,7 @@ def write_results_by_key(layer, results, layer_field, results_field, layer_key="
 	for row in results:
 		results_dict[row.__getattribute__(results_key)] = row.__getattribute__(results_field)
 
-	geospatial.write_column_by_key(layer, layer_field, layer_key, results_dict)
+	write_column_by_key(layer, layer_field, layer_key, results_dict)
 
 
 def split_postprocess_cbargs(cb_args, layer, parent_layer):
@@ -88,7 +88,7 @@ def add_field(zones_layer, db_cursor, cb_args, parent_layer):
 
 	log.info("Adding field with callback query")
 	# TODO: Warning, this code will leave this dataset in memory - a fixed number of these can be called in any given session
-	new_name = geospatial.generate_gdb_filename("callback_add_field", return_full=True)
+	new_name = generate_gdb_filename("callback_add_field", return_full=True)
 	try:
 		arcpy.CopyFeatures_management(zones_layer, new_name)
 	except RuntimeError:
