@@ -14,7 +14,6 @@ If you need to perform a manual setup, you'll need the following:
 PISCES requires:
 * pyodbc
 * SQLAlchemy >= 1.10
-* sierra_code_library (provided in repository)
 * six
 
 ## Set up registry
