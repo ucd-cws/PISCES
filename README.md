@@ -11,7 +11,11 @@ See [full documentation](http://pisces.ucdavis.edu/doc)
 If you need to perform a manual setup, you'll need the following:
 
 ## Install dependencies
-PISCES requires:
+PISCES runs on Python 2 or Python 3 (though some functionality is currently missing in Python 3. It cannot generate
+maps or set metadata on exports in Python 3 yet).
+
+It requires:
+* arcpy (though to use the `api` portion of the package, you can mock out arcpy and run without it)
 * pyodbc
 * SQLAlchemy >= 1.10
 * six
