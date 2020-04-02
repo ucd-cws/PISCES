@@ -1,5 +1,4 @@
-import input_filters.common
-import local_vars
+from __future__ import absolute_import, division, print_function
 
 __author__ = 'nrsantos'
 
@@ -23,11 +22,12 @@ import unittest
 import arcpy
 import pyodbc
 
-from PISCES import funcs
-from PISCES import local_vars
-from PISCES import log
+from . import local_vars
+from . import log
+from . import funcs
+from . input_filters import common
 
-from PISCES.tests import test_data
+from .tests import test_data
 
 
 ### USER VARIABLES: Update these each run

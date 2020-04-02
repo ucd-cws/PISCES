@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 import os
 import re
 import string
@@ -10,7 +12,7 @@ from ..local_vars import input_filter_methods, get_species_from_alt_code, alt_co
 from .. import api
 from .. import funcs
 
-from common import tablecoords_to_file, table_to_array, multifeature_to_HUCs, determine_certainty, copy_row
+from .common import tablecoords_to_file, table_to_array, multifeature_to_HUCs, determine_certainty, copy_row
 
 log = logging.getLogger("PISCES.input_filters")
 
@@ -136,7 +138,7 @@ class Gen_Poly_IF(InputFilter):
 		self.all_init(full_obs_set)  # sets all the defaults for us
 
 	def determine_species(self):
-		print self.name_match_string
+		print(self.name_match_string)
 		InputFilter.determine_species(self, self.parent.dataset_name)
 
 	def process_observations(self):
@@ -144,7 +146,7 @@ class Gen_Poly_IF(InputFilter):
 		# TODO: much of this function can probably be abstracted once we get more IF methods
 		# Run the analysis
 
-		print "Processing dataset %s" % self.parent.dataset_path
+		print("Processing dataset %s" % self.parent.dataset_path)
 
 		for method in input_filter_methods[self.parent.filter_code]:
 
@@ -249,7 +251,7 @@ class Gen_Table_IF(InputFilter):
 			try:
 				l_features = tablecoords_to_file(self.parent.dataset_path, self.fmap_index, self.parent.new_data.Projection_Key)  # dataset, field name for x axis, field name for y axis, and the projection they are all in
 			except local_vars.DataProcessingError as lerror:
-				print lerror
+				print(lerror)
 				raise  # skip this dataset!
 		else:
 			l_features = self.parent.dataset_path
@@ -344,7 +346,7 @@ class Gen_Table_IF(InputFilter):
 					try:
 						l_value = item.handler_function_object(item, observation, row, method)  # pass it a bunch of extra information by default so that it should be able to do anything it needs
 					except local_vars.DataProcessingError as lerror:  # if we get an error raised, set the flag so that we can skip this record - we can't reliably work with this record anymore
-						print lerror
+						print(lerror)
 						continue_flag = 1
 				elif l_function is False and item.input_field and not (
 					row.__dict__[item.input_field] is None):  # we don't have a function, but we do have a field
@@ -702,7 +704,7 @@ class R5_Table_IF(Gen_Table_IF):
 		# copy the feature class to the calculations db. We'll read it from there so we can update the original
 		out_name = os.path.join(local_vars.workspace, self.parent.dataset_name)
 
-		import config
+		from .. import config  # TODO: WTF - why is this here and not above?
 		if not config.use_intermediate_products or not arcpy.Exists(out_name):
 			# if we specified to use intermediate products and the middle file exists, then skip this section to save time
 

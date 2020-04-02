@@ -1,8 +1,10 @@
-from script_tool_funcs import *
+from __future__ import absolute_import, division, print_function
+
+from .script_tool_funcs import *
 
 '''This script is meant to be run only as an ArcGIS script tool - messages will be passed out using arcpy'''
 
-print "This script should only be run as an ArcGIS script tool. If you can see this message, you should exit or you better know what you are doing"
+print("This script should only be run as an ArcGIS script tool. If you can see this message, you should exit or you better know what you are doing")
 
 #set up the workspace
 local_vars.start(arc_script=1)
@@ -103,7 +105,7 @@ else:  # otherwise, we're modifying existing records
 db_conn.commit()
 log.write("Completed modifications, generating new layer!")
 
-import mapping
+from . import mapping
 
 queries = mapping.get_custom_queries(10, db_conn)  # query set 10 is the one that defines the query to return a distribution
 zones_layer = mapping.refresh_zones()

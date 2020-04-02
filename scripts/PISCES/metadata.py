@@ -1,23 +1,25 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'dsx'
 
 import os
 import imp
 
 try:
-	import local_vars
+	from . import local_vars
 except ImportError:
-	from PISCES import local_vars, arcpy_metadata
+	from PISCES import local_vars
 try:
-	import log
+	from . import log
 except ImportError:
 	from PISCES import log
 
-import metadata_basic as basic
-
 __all__ = []
 
+from . import metadata_basic
+
 try:
-	import arcpy_metadata
+	from . import arcpy_metadata
 except ImportError:
 	from PISCES import arcpy_metadata
 

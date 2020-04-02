@@ -1,10 +1,8 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'Thomas.Maschler'
 
-
-from __init__ import MetadataItem
-from __init__ import MetadataMulti
-from __init__ import MetadataItems
-from __init__ import MetadataParentItem
+from .classes import *
 
 
 language_codes = {"english": ["eng", "US"],

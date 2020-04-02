@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'nickrsan'
 
 import unittest
@@ -44,8 +46,8 @@ class DataTest(unittest.TestCase):
 		only_in_hucs = list(set(hucs) - set(zones_aux))
 		only_in_zones = list(set(zones_aux) - set(hucs))
 
-		print "HUCs only in HUC 12 Table: %s" % only_in_hucs
-		print "HUCs only in Zone_Aux: %s" % only_in_zones
+		print("HUCs only in HUC 12 Table: %s" % only_in_hucs)
+		print("HUCs only in Zone_Aux: %s" % only_in_zones)
 
 		self.assertEqual(0, len(only_in_hucs))
 		# we don't assert that there is nothing only in zones because we may have manual cleanup to do

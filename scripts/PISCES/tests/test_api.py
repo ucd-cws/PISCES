@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'dsx'
 
 import unittest
@@ -9,7 +11,7 @@ from PISCES import api
 from PISCES import orm_models
 from PISCES import local_vars
 
-from tbx_query_sources import look_up_records
+from PISCES.tbx_query_sources import look_up_records
 
 
 class GetObservationRecordsForHUCsTest(unittest.TestCase):
@@ -27,7 +29,7 @@ class GetObservationRecordsForHUCsTest(unittest.TestCase):
 
 		for i in range(0, 50):
 			time_val = timeit.timeit(self._performance_individual_call, number=1)
-			print time_val
+			print(time_val)
 			self.assertLess(time_val, 10)
 
 	def _performance_individual_call(self):

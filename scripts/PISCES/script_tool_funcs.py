@@ -4,7 +4,7 @@
 	needs within the PISCES toolbox. Examples would be code to set up and process the species and groups control,
 	code that loads and sets up the observation types picker control, etc.
 """
-
+from __future__ import absolute_import, division, print_function
 
 import os
 import sys
@@ -14,17 +14,16 @@ from datetime import datetime
 import shutil
 
 import arcpy
-import input_filters.common
 
 from sqlalchemy.exc import OperationalError
 
-import local_vars
-import funcs
-import log
-import orm_models
-import mapping
-
-from funcs import index_toolbox_params as index_params
+from . import local_vars
+from . import funcs
+from . import log
+from . import orm_models
+from . import mapping
+from .input_filters import common
+from .funcs import index_toolbox_params as index_params
 
 
 class Filter_Tool_Template(object):

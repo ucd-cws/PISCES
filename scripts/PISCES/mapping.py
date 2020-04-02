@@ -1,4 +1,4 @@
-from __future__ import print_function
+from __future__ import absolute_import, division, print_function
 
 __author__ = 'nrsantos'
 
@@ -16,13 +16,13 @@ import copy
 import arcpy
 import pyodbc
 
-import local_vars
-import funcs
-import log
-import callbacks
-import orm_models
-import config
-import metadata
+from . import local_vars
+from . import funcs
+from . import log
+from . import callbacks
+from . import orm_models
+from . import config
+from . import metadata
 
 mapping_session = orm_models.new_session()  # creating this here isn't good practice. Should be factored out to behave like db_cursor and be passed in
 

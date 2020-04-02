@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'dsx'
 
 import pkg_resources
@@ -9,7 +11,7 @@ from sqlalchemy.ext.hybrid import hybrid_property
 from sqlalchemy import orm, Column, Integer, String, Boolean, Float, ForeignKey, Table, DateTime, UniqueConstraint
 from sqlalchemy.orm import relationship, backref, scoped_session
 
-import local_vars
+from . import local_vars
 
 engine = None
 Session = None
@@ -106,7 +108,7 @@ class SpeciesGroup(Base):
 			hardhead = session.Query(orm.Species).filter_by(fid="CMC01").one()
 			for group in hardhead.groups:
 				## do something
-				print group.name
+				print(group.name)
 	"""
 	__tablename__ = local_vars.species_groups_table
 

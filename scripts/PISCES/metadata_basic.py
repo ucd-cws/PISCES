@@ -1,17 +1,20 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'dsx'
 
 import os
 import datetime
 
 try:
-	import orm_models
-	import local_vars
-	import log
-	import arcpy_metadata as md
+	from . import orm_models
+	from . import local_vars
+	from . import log
+	from . import arcpy_metadata as md
 except ImportError:
 	from PISCES import orm_models
 	from PISCES import local_vars
 	from PISCES import log
+	from PISCES import arcpy_metadata as md
 
 # import PISCES.plugins.metadata.__init__ as pisces_metadata  # TODO - this is the wrong way to import this, I think - fix that
 

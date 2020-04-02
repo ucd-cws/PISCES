@@ -2,6 +2,7 @@
 ##    System - PISCES
 ##    File - tables.py - handles table related transformations of the data for output
 ##
+from __future__ import absolute_import, division, print_function
 
 import sys
 import os
@@ -12,9 +13,9 @@ import arcpy
 import markdown
 import smartypants
 
-import funcs
-import local_vars
-import log
+from . import funcs
+from . import local_vars
+from . import log
 
 #filter_data = arcpy.GetParameterAsText(0)
 #output_folder = arcpy.GetParameterAsText(1)

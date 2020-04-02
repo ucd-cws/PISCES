@@ -1,4 +1,4 @@
-import funcs
+from __future__ import absolute_import, division, print_function
 
 __author__ = 'twu429'
 
@@ -8,6 +8,7 @@ import arcpy
 
 from PISCES import script_tool_funcs
 from PISCES import local_vars
+from PISCES import funcs
 
 class ScriptToolTest(unittest.TestCase):
 	def setup(self):
@@ -78,5 +79,5 @@ class ScriptToolTest(unittest.TestCase):
 
 	#need to find some examples that contain observation codes
 	def test_parse_obs_type_from_list(self):
-		print funcs.parse_input_species_from_list("620099")
+		print(funcs.parse_input_species_from_list("620099"))
 

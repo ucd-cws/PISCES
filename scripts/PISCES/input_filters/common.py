@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 import os
 import logging
 
@@ -62,7 +64,7 @@ def convert_DDM_to_DD(compiled_re_pattern, value):
 def tablecoords_to_file(dataset_path, field_map, projection_index):
 	# args: dataset to work on, the field that contains the x coord, the field containing the y coord, and the projection file to use
 
-	print "Converting Coordinates to Feature Class"
+	print("Converting Coordinates to Feature Class")
 
 	if projection_index == None:
 		raise local_vars.DataProcessingError("No projection specified for dataset %s" % dataset_path)
@@ -301,7 +303,7 @@ def reproject_coords(rows, xaxis, yaxis, spatial_reference_object):
 	:param spatial_reference_object:
 	:return:
 	"""
-	print "Projecting coordinates"
+	print("Projecting coordinates")
 
 	arcpy.env.workspace = local_vars.workspace  # confirm that the arcpy workspace is currently correct!
 	point_fc_short = "project_point"
@@ -391,7 +393,7 @@ def find_HUC_by_latlong(lat,
 	log.info("HUC_12 ID found - %s\n" % HUC12_ID)
 
 	try:
-		print "deleting temporary feature classes..."
+		print("deleting temporary feature classes...")
 		arcpy.Delete_management(temp_fc)
 		arcpy.Delete_management(temp_result)
 	except:

@@ -1,5 +1,4 @@
-import input_filters.common
-import local_vars
+from __future__ import absolute_import, division, print_function
 
 __author__ = 'nickrsan'
 
@@ -9,7 +8,6 @@ import arcpy
 
 from PISCES import funcs
 from PISCES import local_vars
-
 
 
 class ComposeQueryTest(unittest.TestCase):
@@ -129,7 +127,7 @@ class ComposeQueryTest(unittest.TestCase):
 	def test_is_between(self):
 		self.assertEqual(funcs.is_between(1.1,1,2),True)
 		self.assertEqual(funcs.is_between(3,1,2),False)
-		# print funcs.is_between("b", 1, "}")
+		# print(funcs.is_between("b", 1, "}"))
 
 
 	def test_get_species_from_alt_code(self):
@@ -139,7 +137,7 @@ class ComposeQueryTest(unittest.TestCase):
 		self.assertEqual(local_vars.get_species_from_alt_code("a", "b"), False)
 		#returns the FID of "arg" with the filter "MOY"
 		self.assertEqual(local_vars.get_species_from_alt_code("arg", "MOY"), "STA01")
-		#print funcs.get_species_from_alt_code(123,4312) #function doesnt deal with non-strings and this will break code
+		#print(funcs.get_species_from_alt_code(123,4312)) #function doesnt deal with non-strings and this will break code
 
 	def test_get_species_in_dataset(self):
 		self.setup()
@@ -150,7 +148,7 @@ class ComposeQueryTest(unittest.TestCase):
 	# TODO: ask nick about this feature_class deal
 	#def test_copy_data(self):
 		#feature_class = "jlkkjlasd"
-		#print funcs.copy_data(dataset,"C:\Users\twu429.AD3\Desktop")
+		#print(funcs.copy_data(dataset,"C:\Users\twu429.AD3\Desktop"))
 
 	#def test_data_get_current_observation_sets(self):
 	def test_hucs_to_list(self):
@@ -161,7 +159,7 @@ class ComposeQueryTest(unittest.TestCase):
 		self.assertItemsEqual(funcs.hucs_to_list(local_vars.HUCS),hucs_list)
 
 	def test_get_path(self):
-		print funcs.get_path()
+		print(funcs.get_path())
 
 if __name__ == '__main__':
 	unittest.main()

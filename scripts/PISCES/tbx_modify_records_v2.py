@@ -1,21 +1,23 @@
+from __future__ import absolute_import, division, print_function
+
 import os
 import sys
 import re
 
 import arcpy
 
-import local_vars
-import log
-import funcs
-import mapping
-import api
-import script_tool_funcs
+from PISCES import local_vars
+from PISCES import log
+from PISCES import funcs
+from PISCES import mapping
+from PISCES import api
+from PISCES import script_tool_funcs
 
 '''This script is meant to be run only as an ArcGIS script tool - messages will be passed out using arcpy'''
 '''This is the primary toolbox function from before they were prefixed with tbx_ - it handles modifications of records directly from within ArcGIS'''
 
 
-print "This script should only be run as an ArcGIS script tool. If you can see this message, you should exit or you better know what you are doing"
+print("This script should only be run as an ArcGIS script tool. If you can see this message, you should exit or you better know what you are doing")
 
 local_vars.start(arc_script=1)
 

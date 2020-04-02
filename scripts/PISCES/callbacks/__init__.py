@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 import os
 import sys
 import logging
@@ -8,8 +10,8 @@ from .. import arcpy_metadata as md
 from .. import local_vars
 from .. import funcs
 
-from richness_difference import richness_difference
-from common import postprocess_zones, add_field, empty_object, function_arg, query, get_arg
+from .richness_difference import richness_difference
+from .common import postprocess_zones, add_field, empty_object, function_arg, query, get_arg
 
 from ..code_library_data_files import generate_gdb_filename, fast_dissolve, make_temp
 
@@ -687,7 +689,7 @@ def richness(zones_layer, db_cursor, cb_args, parent_layer):  # layer callback
 
 	for row in rows:
 		if row.HUC_12 == None:
-			print "skipping row..."
+			print("skipping row...")
 			continue
 
 		l_sql = """SELECT Count(*) AS l_count
@@ -774,7 +776,7 @@ def make_tooltip_column(zones_layer, db_cursor, args):
 
 	for row in rows:
 		if row.HUC_12 is None:
-			print "skipping row..."
+			print("skipping row...")
 			continue
 
 		l_sql = """SELECT DISTINCT observation_sets.*
@@ -865,7 +867,7 @@ def connectivity(zones_layer, db_cursor, args, map_layer):
 	h_num = 0
 	for huc in huc_cursor:
 		h_num += 1
-		print "%s - Next" % h_num
+		print("%s - Next" % h_num)
 		connectivity_recurse(zones_layer, huc, select_vars, attributes, huc_cursor)
 		del huc
 
@@ -987,7 +989,7 @@ def network_distance(zones_layer, db_cursor, args, map_layer):
 		ind = 0
 		for huc in l_curs:
 			ind += 1
-			print "%s..." % ind,  # print how many we've done!
+			print("%s..." % ind)  # print how many we've done!
 			if huc.HUC_12 == args:
 				huc.setValue("network_distance", 0)
 			else:

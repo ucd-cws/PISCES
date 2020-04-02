@@ -1,3 +1,5 @@
+from __future__ import absolute_import, division, print_function
+
 import os
 import re
 import string
@@ -131,7 +133,7 @@ def postprocess_zones(zones_layer, db_cursor, cb_args, parent_layer):
 
 		#check that it's a HUC
 		if row.getValue(local_vars.huc_field) is None:
-			print "skipping row..."
+			print("skipping row...")
 			continue
 
 		# then run the queries

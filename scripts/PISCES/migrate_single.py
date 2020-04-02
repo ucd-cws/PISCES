@@ -1,5 +1,7 @@
-import input_filters.common
-import local_vars
+from __future__ import absolute_import, division, print_function
+
+from .input_filters import common
+from . import local_vars
 
 __author__ = 'nrsantos'
 
