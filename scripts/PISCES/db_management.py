@@ -12,15 +12,15 @@
 	it through hydrate.
 
 """
+from __future__ import absolute_import, division, print_function
 
 import os
 import platform
 import subprocess
 import shutil
-import time
 
-import local_vars
-import log
+from . import local_vars
+from . import log
 
 DUMP_EXTENSION = "sqldump"
 DUMP_FOLDER = os.path.join(local_vars.internal_workspace, "data", "dumps")

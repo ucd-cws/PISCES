@@ -1,15 +1,17 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'nrsantos'
 
 import csv
 import traceback
 
-import log
-import funcs
-import local_vars
-import api
+from . import log
+from . import funcs
+from . import local_vars
+from . import api
 
-from code_library_data_files import teale_albers
-import code_library_geometry as geometry
+from .code_library_data_files import teale_albers
+from . import code_library_geometry as geometry
 
 
 def percent_overlap(range_old, range_new):

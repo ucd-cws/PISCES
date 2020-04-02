@@ -4,6 +4,7 @@
 	arcpy - trying to keep the API to only using the ORM so that an ORM/API only version of the package
 	could be still be used in the absence of arcpy installs, etc.
 """
+from __future__ import absolute_import, division, print_function
 
 import six
 
@@ -11,9 +12,9 @@ import arcpy
 import sqlalchemy
 
 from . import local_vars
-from api import presence
-from api import support
-import orm_models as orm
+from .api import presence
+from .api import support
+from . import orm_models as orm
 
 aggregation_levels = ("family", "genus", "species")
 

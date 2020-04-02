@@ -1,24 +1,26 @@
+from __future__ import absolute_import, division, print_function
+
 __author__ = 'nrsantos'
 
 import random
 import string
 
 from sqlalchemy import distinct
-import arcpy
+
 import arcpy
 
-import api_components
-from api_components.listing import get_hucs_for_species_as_list  # backwards compatibility
-from api_components import listing  # make it available as api.listing for now
-from api_components import counts
-from api_components import support
-from api_components import presence
+from . import api_components
+from .api_components.listing import get_hucs_for_species_as_list  # backwards compatibility
+from .api_components import listing  # make it available as api.listing for now
+from .api_components import counts
+from .api_components import support
+from .api_components import presence
 
-import local_vars
-import funcs
-import orm_models as orm
-import mapping
-import log
+from . import local_vars
+from . import funcs
+from . import orm_models as orm
+from . import mapping
+from . import log
 
 
 class NoDataError(Exception):

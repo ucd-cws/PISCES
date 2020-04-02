@@ -1,12 +1,13 @@
-__author__ = 'dsx'
+from __future__ import absolute_import, division, print_function
+
+__author__ = 'nickrsan'
 
 import os
 import re
 
-import local_vars
-import mapping
-import config
-import log
+from . import local_vars
+from . import config
+from . import log
 
 class PISCES_Config:
 	"""

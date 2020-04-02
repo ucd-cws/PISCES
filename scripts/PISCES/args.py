@@ -1,15 +1,19 @@
-from string import lower
+from __future__ import absolute_import, division, print_function
 
-import sys, arcpy, os
-import local_vars
-import log
-import funcs
+import sys
+import os
+
+import arcpy
+
+from . import local_vars
+from . import log
+from . import funcs
 
 args = ['-test','-testdir','-workspace','-importonly','-maponly','-usecache','-stats']
 flags = {}
 
-import config
-import mapping
+from . import config
+from . import mapping
 
 def process_args(args):
 	"""
@@ -59,15 +63,15 @@ def print_usage():
 		Likely a fully deprecated function - usage is automatically printed by docopt when not used correctly.
 	:return:
 	"""
-	print "Command line usage:\n\tstart.py"
-	print "\t\t[-stats 1 - print stats and exit]"
-	print "\t\t[-maponly 1 - only generate maps - skip import]"
-	print "\t\t[-importonly 1 - only import data - skip mapping]"
-	print "\t\t[-usecache 1 - when mapping, don't generate new layers - use cached layers instead]"
-	print "\t\t[-test 1 - sets test mode - makes a copy of data files so we aren't using the real versions]"
-	print "\t\t[-testdir \"{a folder}\" - sets the location to store the test files. Defaults to a subdir of this program, but setting this can be much faster if working on a network drive.]"
-	print "\t\t[-workspace \"{.mdb location}\"] - used for scratch work]"
-	print "\n\nAdditional configuration variables are available in /scripts/PISCES/config.py"
+	print("Command line usage:\n\tstart.py")
+	print("\t\t[-stats 1 - print stats and exit]")
+	print("\t\t[-maponly 1 - only generate maps - skip import]")
+	print("\t\t[-importonly 1 - only import data - skip mapping]")
+	print("\t\t[-usecache 1 - when mapping, don't generate new layers - use cached layers instead]")
+	print("\t\t[-test 1 - sets test mode - makes a copy of data files so we aren't using the real versions]")
+	print("\t\t[-testdir \"{a folder}\" - sets the location to store the test files. Defaults to a subdir of this program, but setting this can be much faster if working on a network drive.]")
+	print("\t\t[-workspace \"{.mdb location}\"] - used for scratch work]")
+	print("\n\nAdditional configuration variables are available in /scripts/PISCES/config.py")
 	sys.exit()
 	
 			

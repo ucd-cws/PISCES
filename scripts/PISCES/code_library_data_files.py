@@ -1,6 +1,8 @@
 """
 	This script migrates in some code library code on spatial data files to remove it as a separate dependency
 """
+from __future__ import absolute_import, division, print_function
+
 import os
 import tempfile
 import sys
@@ -9,7 +11,7 @@ import traceback
 
 import arcpy
 
-import log
+from . import log
 
 try:
 	coordinate_systems = os.path.join(arcpy.GetInstallInfo()['InstallDir'], "Coordinate Systems")

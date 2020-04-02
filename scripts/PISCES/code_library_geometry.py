@@ -3,14 +3,16 @@ Created on Aug 28, 2012
 
 @author: nicksantos
 '''
+from __future__ import absolute_import, division, print_function
+
 import os
 import traceback
 
 import arcpy
 
-import log
-from funcs import isiterable
-import code_library_data_files as geospatial
+from . import log
+from .funcs import isiterable
+from . import code_library_data_files as geospatial
 
 
 class Comparison(object):
