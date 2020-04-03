@@ -5,6 +5,7 @@ import shutil
 import string
 import traceback
 import logging
+import sys
 
 import six
 import pyodbc
@@ -193,21 +194,24 @@ def set_workspace_vars(l_workspace=None):
 	global code_folder
 
 	if l_workspace is None and not set_workspace_run:  # if no l_workspace is provided, then do this to set the workspace
-
-		try:
+		if sys.platform == "win32" and ARCPY_AVAILABLE:  # if we're on windows *and* we have arcpy, then get the folder from the registry in case we're running in ArcGIS itself
 			try:
-				registry = winreg.ConnectRegistry("", winreg.HKEY_LOCAL_MACHINE)  # open the registry
-				base_folder = winreg.QueryValue(registry, reg_key)  # get the PISCES location
-				winreg.CloseKey(registry)
-			except:
-				log.error("Unable to get base folder")
-				raise
+				try:
+					registry = winreg.ConnectRegistry("", winreg.HKEY_LOCAL_MACHINE)  # open the registry
+					base_folder = winreg.QueryValue(registry, reg_key)  # get the PISCES location
+					winreg.CloseKey(registry)
+				except:
+					log.error("Unable to get base folder")
+					raise
 
-			internal_workspace = base_folder
-			set_workspace_run = True
-		except:
-			log.error("Unable to set workspace - you are likely loading PISCES from another module. You must manually run set_workspace_vars if you wish to do this")
-			raise
+				internal_workspace = base_folder
+			except:
+				log.error("Unable to set workspace - you are likely loading PISCES from another module. You must manually run set_workspace_vars if you wish to do this")
+				raise
+		else:
+			internal_workspace = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+		set_workspace_run = True
 		
 	elif l_workspace:  # set it to what we've provided - this is most likely to occur when called from the test setup function to reset all paths
 		internal_workspace = l_workspace
