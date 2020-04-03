@@ -16,6 +16,7 @@ if six.PY2:
 else:
 	import winreg
 
+from . import ARCPY_AVAILABLE
 from . import log  # safe to import now because we made it not import local vars
 new_log = logging.getLogger("PISCES.local_vars")  # for the future
 
@@ -126,12 +127,24 @@ historic_obs_types = "2,5,10"
 hq_collections = "5,15,16"
 
 # ArcGIS folder
-arc_path = arcpy.GetInstallInfo()['InstallDir']  # won't work with the environment variable, and nothing in the registry seems to contain the base Arc folder.
-projections_path = os.path.join(arc_path, "Coordinate Systems")
-proj_teale_albers = arcpy.SpatialReference(3310)
-proj_utm = os.path.join(projections_path, "Projected Coordinate Systems", "UTM", "NAD 1983", "NAD 1983 UTM Zone 10N.prj")
-projections = {'UTM': proj_utm, 'Teale_Albers': proj_teale_albers}
-default_proj = proj_teale_albers
+try:
+	arc_path = arcpy.GetInstallInfo()['InstallDir']  # won't work with the environment variable, and nothing in the registry seems to contain the base Arc folder.
+	projections_path = os.path.join(arc_path, "Coordinate Systems")
+	proj_teale_albers = arcpy.SpatialReference(3310)
+	proj_utm = os.path.join(projections_path, "Projected Coordinate Systems", "UTM", "NAD 1983", "NAD 1983 UTM Zone 10N.prj")
+	projections = {'UTM': proj_utm, 'Teale_Albers': proj_teale_albers}
+	default_proj = proj_teale_albers
+except TypeError:
+	if ARCPY_AVAILABLE:
+		raise
+	else:
+		arc_path = None
+		projections_path = None
+		proj_teale_albers = None
+		proj_utm = None
+		projections = {}
+		default_proj = None
+		log.warning("Couldn't set paths to arcpy coordinate systems. This will be expected if running in a non-arcpy Python environment.")
 
 # MAPPING
 map_fish = {}  # stores fish common names indexed by FID, but only for the fish we will process

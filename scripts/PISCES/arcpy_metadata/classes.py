@@ -6,9 +6,11 @@ import xml.etree.ElementTree as ET
 
 import arcpy
 
+from .. import ARCPY_AVAILABLE
+
 try:  # made as part of a larger package - using existing logger, but logging to screen for now if not in that package
-    from log import write as logwrite
-    from log import warning as logwarning
+    from ..log import write as logwrite
+    from ..log import warning as logwarning
 except ImportError:
     def logwrite(log_string, autoprint=1):  # match the signature of the expected log function
         print(log_string)
@@ -17,9 +19,18 @@ except ImportError:
     def logwarning(log_string):
         print("WARNING: {0:s}".format(log_string))
 
-installDir = arcpy.GetInstallInfo("desktop")["InstallDir"]
-xslt = os.path.join(installDir, r"Metadata\Stylesheets\gpTools\exact copy of.xslt")
-metadata_temp_folder = arcpy.env.scratchFolder  # a default temp folder to use - settable by other applications so they can set it once
+try:
+    installDir = arcpy.GetInstallInfo("desktop")["InstallDir"]
+    xslt = os.path.join(installDir, r"Metadata\Stylesheets\gpTools\exact copy of.xslt")
+    metadata_temp_folder = arcpy.env.scratchFolder  # a default temp folder to use - settable by other applications so they can set it once
+except TypeError:
+    if ARCPY_AVAILABLE:
+        raise  # supposedly arcpy should be available, so we should raise the error - if arcpy isn't available, this is expected
+
+    installDir = None
+    xslt = None
+    metadata_temp_folder = None  # a default temp folder to use - settable by other applications so they can set it once
+
 
 
 class MetadataItem(object):
