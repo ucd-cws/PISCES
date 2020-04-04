@@ -7,16 +7,32 @@ from PISCES import api
 taxonomy = "taxonomy_term/scientific_name"
 
 models_as_jsonschema = {
-    taxonomy: {'properties': {
-        'name': {'type': 'string'},
-        'description': {'type': 'string'},
-		'parent': {'relation': 'to-many', 'resource': [taxonomy]},
-		#'parent':{
-		#	"type": "array",
-        #	"items": { "$ref": "taxonomy_term/scientific_name" },
-        #	"default": []
-        #}
- 	}}
+    taxonomy: {
+		'type': 'object',
+		'definitions': {
+			"scientific_name": {
+				'properties': {
+						'name': {'type': 'string'},
+						'description': {'type': 'string'},
+						'parent': {
+							"relation": {"type": "to-many"},
+							"resource": ["#/definitions/scientific-name"],
+							"type": "array",
+							"items": {"$ref": "#/definitions/scientific_name"},
+							"default": []
+						}
+				}
+			}
+		},
+		'properties': {
+			"name": {"$ref": "#/definitions/scientific_name/properties/name"},
+			"description": {"$ref": "#/definitions/scientific_name/properties/description"},
+			"parent": {
+				"relation": {"type": "to-many"},
+				"resource": ["#/definitions/scientific-name"]
+			}
+		}
+	}
 }
 
 
@@ -58,7 +74,7 @@ class WebUploader(object):
 	def _new_taxonomy(self, sci_name, common_name, parent=None):
 		new_taxonomy = self.session.create(taxonomy)
 		new_taxonomy.name = sci_name
-		new_taxonomy.description = "<p>{}</p>".format(common_name)
+		new_taxonomy.description = common_name
 		if parent is not None:
 			new_taxonomy.parent.append(parent)
 		new_taxonomy.commit()
