@@ -7,32 +7,11 @@ from PISCES import api
 taxonomy = "taxonomy_term/scientific_name"
 
 models_as_jsonschema = {
-    taxonomy: {
-		'type': 'object',
-		'definitions': {
-			"scientific_name": {
-				'properties': {
-						'name': {'type': 'string'},
-						'description': {'type': 'string'},
-						'parent': {
-							"relation": {"type": "to-many"},
-							"resource": ["#/definitions/scientific-name"],
-							"type": "array",
-							"items": {"$ref": "#/definitions/scientific_name"},
-							"default": []
-						}
-				}
-			}
-		},
-		'properties': {
-			"name": {"$ref": "#/definitions/scientific_name/properties/name"},
-			"description": {"$ref": "#/definitions/scientific_name/properties/description"},
-			"parent": {
-				"relation": {"type": "to-many"},
-				"resource": ["#/definitions/scientific-name"]
-			}
-		}
-	}
+    taxonomy: {'properties': {
+        'name': {'type': 'string'},
+        'description': {'type': 'string'},
+		'parent': {'relation': 'to-many', 'resource': [taxonomy]}
+ 	}}
 }
 
 
@@ -75,10 +54,18 @@ class WebUploader(object):
 		new_taxonomy = self.session.create(taxonomy)
 		new_taxonomy.name = sci_name
 		new_taxonomy.description = common_name
-		if parent is not None:
+
+		if parent is not None:  # can't get the client to handle nesting relationships, so wrote my own code to do the submit here, leveraging the client for the request itself
 			new_taxonomy.parent.append(parent)
-		new_taxonomy.commit()
-		print("Created {}".format(new_taxonomy.url))
+			json = new_taxonomy._commit_data()
+			json['data']['relationships'] = {"parent": {"data": [{"type": "taxonomy_term--scientific_name", "id": parent.id}]}}
+			self.session.http_request("POST", url="{}/{}".format(self.base_web_url, taxonomy), send_json=json)
+
+			# now we need to get the new taxonomy item back, basically, so we can use it in the next layer - this won't work for items that have the same name and description - should add some other ID?
+			new_taxonomy = self.session.get(taxonomy, jsonapi_client.Filter(name=sci_name, description=common_name)).resources[0]
+		else:
+			new_taxonomy.commit()
+
 		return new_taxonomy
 
 
