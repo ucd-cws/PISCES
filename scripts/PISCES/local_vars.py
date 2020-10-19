@@ -890,8 +890,8 @@ def mapping_setup():
 	web_layer_csv_writer = None
 	web_layer_csv_file = None
 
-	import config
-	reload(config)  # without forcing a refresh of the config here, moving the database won't work correctly in ArcMap
+	from . import config
+	six.moves.reload_module(config)  # without forcing a refresh of the config here, moving the database won't work correctly in ArcMap
 	mapping_process_config()
 
 	global map_fish, all_maps, common_layers
